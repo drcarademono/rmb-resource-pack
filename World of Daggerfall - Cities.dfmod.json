@@ -1,0 +1,14 @@
+{
+    "ModTitle": "World of Daggerfall - Cities",
+    "ModVersion": "0.01",
+    "ModAuthor": "World of Daggerfall Team",
+    "DFUnity_Version": "0.15.0",
+    "GUID": "3ddef66d-cf40-400e-b7dd-db0d85111409",
+    "Files": [
+        "Assets/Game/Mods/wod-cities/Prefabs/Hills/6000.prefab",
+        "Assets/Game/Mods/wod-cities/Assets/Meshes/Hills/CPT_Mountain_L_b03.blend",
+        "Assets/Game/Mods/wod-cities/Assets/Meshes/Hills/CPT_Mountain_L_b02.blend",
+        "Assets/Game/Mods/wod-cities/Assets/Meshes/Hills/CPT_Mountain_L_b04.blend",
+        "Assets/Game/Mods/wod-cities/Assets/Meshes/Hills/CPT_Mountain_L_b01.blend"
+    ]
+}
