@@ -1,0 +1,1138 @@
+{
+    "_list": [
+        {
+            "ID": "1009.0",
+            "Label": "Nesting Griffin",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Wildlife",
+            "Tags": ""
+        },
+        {
+            "ID": "1009.1",
+            "Label": "Perching Frost Eagle",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Wildlife",
+            "Tags": ""
+        },
+        {
+            "ID": "1009.2",
+            "Label": "Lunching Frost Eagle",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Wildlife",
+            "Tags": ""
+        },
+        {
+            "ID": "1009.3",
+            "Label": "Perching Vulture",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Wildlife",
+            "Tags": ""
+        },
+        {
+            "ID": "1009.4",
+            "Label": "Daggerback",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Wildlife",
+            "Tags": ""
+        },
+        {
+            "ID": "1009.5",
+            "Label": "Sep Adder",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Wildlife",
+            "Tags": ""
+        },
+        {
+            "ID": "1009.6",
+            "Label": "Sep Adder",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Wildlife",
+            "Tags": ""
+        },
+        {
+            "ID": "1009.7",
+            "Label": "Posed Stag",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Wildlife",
+            "Tags": ""
+        },
+        {
+            "ID": "1009.8",
+            "Label": "Grazing Doe",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Wildlife",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.0",
+            "Label": "Brown Glen Pony",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.1",
+            "Label": "Tame Basilisk on a Stand",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.2",
+            "Label": "Grazing Alcaire Cart Horse",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.3",
+            "Label": "Brown Bluetail Rooster",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.4",
+            "Label": "Pecking Brown Chicken",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.5",
+            "Label": "Posed Brown Chicken",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.6",
+            "Label": "Looking Brown Chicken",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.7",
+            "Label": "Brown Pullet",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.8",
+            "Label": "Gray Rooster",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.9",
+            "Label": "Gray Chicken",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.10",
+            "Label": "Pecking Gray Chicken",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.11",
+            "Label": "Gray Rooster",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.12",
+            "Label": "Pecking Gray Chicken",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.13",
+            "Label": "Gray Pullet",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.14",
+            "Label": "Posed Gray Pullet",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.15",
+            "Label": "White Sheep",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.16",
+            "Label": "Front-Facing White Sheep",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.17",
+            "Label": "Resting White Sheep",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.18",
+            "Label": "Brown Cow",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.19",
+            "Label": "Curious Brown Calf",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.20",
+            "Label": "Brown Bull",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.21",
+            "Label": "White Pullet",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.22",
+            "Label": "Looking White Chicken",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.23",
+            "Label": "White Chicken",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.24",
+            "Label": "Pecking White Chicken",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.25",
+            "Label": "White Rooster",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.26",
+            "Label": "Wayrest Charger",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.27",
+            "Label": "Wayrest Charger",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.28",
+            "Label": "Wayrest Charger",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.29",
+            "Label": "Resting Wayrest Charger",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.30",
+            "Label": "Tacker Wayrest Charger",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.31",
+            "Label": "Grazing Wayrest Charger",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.32",
+            "Label": "Tacked Alcaire Cart Horse",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.33",
+            "Label": "Brown Rat",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.34",
+            "Label": "Tame Boar",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.35",
+            "Label": "Tame Boar",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.36",
+            "Label": "Black Rat",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.37",
+            "Label": "Resting Brown Rat",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.38",
+            "Label": "Brown Rat",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.39",
+            "Label": "Resting Brown Rat",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.40",
+            "Label": "Sitting Black Rat",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.41",
+            "Label": "Brown Rat",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.42",
+            "Label": "Rock Dove",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.43",
+            "Label": "Rock Dove",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.44",
+            "Label": "Rock Dove",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.45",
+            "Label": "Rock Dove",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.46",
+            "Label": "Rock Dove",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.47",
+            "Label": "Rock Dove",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.48",
+            "Label": "Rock Dove",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.49",
+            "Label": "Rock Dove",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.50",
+            "Label": "Rock Dove",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.51",
+            "Label": "Brown Horse",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.52",
+            "Label": "Brown Horse",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1011.0",
+            "Label": "Orc Chieftain",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Nobles",
+            "Tags": ""
+        },
+        {
+            "ID": "1011.1",
+            "Label": "Orc Warlord",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Nobles",
+            "Tags": ""
+        },
+        {
+            "ID": "1011.2",
+            "Label": "Orc Merchant",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Nobles",
+            "Tags": ""
+        },
+        {
+            "ID": "1011.3",
+            "Label": "Young Orc Queen",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Nobles",
+            "Tags": ""
+        },
+        {
+            "ID": "1012.0",
+            "Label": "Orc Elder",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Commoners",
+            "Tags": ""
+        },
+        {
+            "ID": "1012.1",
+            "Label": "Orc Child with Kitten",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Commoners",
+            "Tags": ""
+        },
+        {
+            "ID": "1012.2",
+            "Label": "Orc Bather",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Commoners",
+            "Tags": ""
+        },
+        {
+            "ID": "1012.3",
+            "Label": "Orc Bather",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Commoners",
+            "Tags": ""
+        },
+        {
+            "ID": "1012.4",
+            "Label": "Orc Child",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Commoners",
+            "Tags": ""
+        },
+        {
+            "ID": "1012.5",
+            "Label": "Orc Child on Boar",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Commoners",
+            "Tags": ""
+        },
+        {
+            "ID": "1012.6",
+            "Label": "Orc Woman",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Commoners",
+            "Tags": ""
+        },
+        {
+            "ID": "1012.7",
+            "Label": "Orc Mother with Baby",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Commoners",
+            "Tags": ""
+        },
+        {
+            "ID": "1012.8",
+            "Label": "Orc Woman",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Commoners",
+            "Tags": ""
+        },
+        {
+            "ID": "1012.9",
+            "Label": "Orc Woman",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Commoners",
+            "Tags": ""
+        },
+        {
+            "ID": "1012.10",
+            "Label": "Playing Orc Child",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Commoners",
+            "Tags": ""
+        },
+        {
+            "ID": "1013.1",
+            "Label": "Vampire Leader",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Vampires",
+            "Tags": ""
+        },
+        {
+            "ID": "1013.2",
+            "Label": "Vampire Informant",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Vampires",
+            "Tags": ""
+        },
+        {
+            "ID": "1013.3",
+            "Label": "Quenched Vampire",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Vampires",
+            "Tags": ""
+        },
+        {
+            "ID": "1014.0",
+            "Label": "Dibella Priestess in Veils",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Priests and Pilgrims",
+            "Tags": ""
+        },
+        {
+            "ID": "1014.1",
+            "Label": "Nude Dibellan Priestess",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Priests and Pilgrims",
+            "Tags": ""
+        },
+        {
+            "ID": "1014.2",
+            "Label": "Argonian Priestess",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Priests and Pilgrims",
+            "Tags": ""
+        },
+        {
+            "ID": "1014.3",
+            "Label": "Dibellan Priest Painting",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Priests and Pilgrims",
+            "Tags": ""
+        },
+        {
+            "ID": "1014.4",
+            "Label": "Praying Pilgrim",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Priests and Pilgrims",
+            "Tags": ""
+        },
+        {
+            "ID": "1014.5",
+            "Label": "Praying Pilgrim",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Priests and Pilgrims",
+            "Tags": ""
+        },
+        {
+            "ID": "1015.0",
+            "Label": "Scholar with a Map",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Scholars and Shamans",
+            "Tags": ""
+        },
+        {
+            "ID": "1015.1",
+            "Label": "Old Orc Shaman",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Scholars and Shamans",
+            "Tags": ""
+        },
+        {
+            "ID": "1015.2",
+            "Label": "Orc Shaman with Flowers",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Scholars and Shamans",
+            "Tags": ""
+        },
+        {
+            "ID": "1015.3",
+            "Label": "Angry Orc Shaman",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Scholars and Shamans",
+            "Tags": ""
+        },
+        {
+            "ID": "1015.4",
+            "Label": "Orc Shaman",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Scholars and Shamans",
+            "Tags": ""
+        },
+        {
+            "ID": "1016.0",
+            "Label": "Mournoth Guard",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Soldiers and Guards",
+            "Tags": ""
+        },
+        {
+            "ID": "1016.1",
+            "Label": "Ceremonial Orc Guard",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Soldiers and Guards",
+            "Tags": ""
+        },
+        {
+            "ID": "1016.2",
+            "Label": "Orc Guard",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Soldiers and Guards",
+            "Tags": ""
+        },
+        {
+            "ID": "1016.3",
+            "Label": "Orc Warrior",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Soldiers and Guards",
+            "Tags": ""
+        },
+        {
+            "ID": "1016.4",
+            "Label": "Orc Stronghold Warrior",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Soldiers and Guards",
+            "Tags": ""
+        },
+        {
+            "ID": "1017.0",
+            "Label": "Orc Smith",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Labourers",
+            "Tags": ""
+        },
+        {
+            "ID": "1017.1",
+            "Label": "Orc Washer",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Labourers",
+            "Tags": ""
+        },
+        {
+            "ID": "1017.2",
+            "Label": "Orc Cook with Pig",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Labourers",
+            "Tags": ""
+        },
+        {
+            "ID": "1017.3",
+            "Label": "Orc Youth Labourer",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Labourers",
+            "Tags": ""
+        },
+        {
+            "ID": "1017.4",
+            "Label": "Orc Miner Firer Stoker",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Labourers",
+            "Tags": ""
+        },
+        {
+            "ID": "1017.5",
+            "Label": "Orc Fisherman",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Labourers",
+            "Tags": ""
+        },
+        {
+            "ID": "1017.6",
+            "Label": "Orc Miner Rock Breaker",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Labourers",
+            "Tags": ""
+        },
+        {
+            "ID": "1017.7",
+            "Label": "Orc Elderly Cook",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Labourers",
+            "Tags": ""
+        },
+        {
+            "ID": "1018.0",
+            "Label": "Orc Model",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Entertainers",
+            "Tags": ""
+        },
+        {
+            "ID": "1018.1",
+            "Label": "Orc Prostitute",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Entertainers",
+            "Tags": ""
+        },
+        {
+            "ID": "1018.2",
+            "Label": "Orc Prostitute",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Entertainers",
+            "Tags": ""
+        },
+        {
+            "ID": "1018.3",
+            "Label": "Orc Musician",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Entertainers",
+            "Tags": ""
+        },
+        {
+            "ID": "1018.4",
+            "Label": "Orc Child Ring Dancer",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Entertainers",
+            "Tags": ""
+        },
+        {
+            "ID": "1019.0",
+            "Label": "Orc Alcoholic",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "NPCs - Underclass",
+            "Tags": ""
+        },
+        {
+            "ID": "1020.0",
+            "Label": "Elizabed",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Named NPCs",
+            "Tags": ""
+        },
+        {
+            "ID": "1020.1",
+            "Label": "Skakmat",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Named NPCs",
+            "Tags": ""
+        },
+        {
+            "ID": "1020.2",
+            "Label": "The Acolyte",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Named NPCs",
+            "Tags": ""
+        },
+        {
+            "ID": "1020.3",
+            "Label": "Baron Shrike",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Named NPCs",
+            "Tags": ""
+        },
+        {
+            "ID": "1021.0",
+            "Label": "Cherry",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Food",
+            "Tags": ""
+        },
+        {
+            "ID": "1021.1",
+            "Label": "Pear",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Food",
+            "Tags": ""
+        },
+        {
+            "ID": "1021.2",
+            "Label": "Plum",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Food",
+            "Tags": ""
+        },
+        {
+            "ID": "1021.3",
+            "Label": "Peach",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Food",
+            "Tags": ""
+        },
+        {
+            "ID": "1021.4",
+            "Label": "Olives",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Food",
+            "Tags": ""
+        },
+        {
+            "ID": "1021.5",
+            "Label": "Cheese Wheel",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Food",
+            "Tags": ""
+        },
+        {
+            "ID": "1021.6",
+            "Label": "Cheese Wheel Missing a Piece",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Food",
+            "Tags": ""
+        },
+        {
+            "ID": "1021.7",
+            "Label": "Cheese Slice",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Food",
+            "Tags": ""
+        },
+        {
+            "ID": "1021.8",
+            "Label": "Cheese Slice with Holes",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Food",
+            "Tags": ""
+        },
+        {
+            "ID": "1021.9",
+            "Label": "Cheese Wheel",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Food",
+            "Tags": ""
+        },
+        {
+            "ID": "1021.10",
+            "Label": "Soft Cheese",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Food",
+            "Tags": ""
+        },
+        {
+            "ID": "1021.11",
+            "Label": "Pig Roast Platter",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Food",
+            "Tags": ""
+        },
+        {
+            "ID": "1021.12",
+            "Label": "Flour Porridge",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Food",
+            "Tags": ""
+        },
+        {
+            "ID": "1021.13",
+            "Label": "Broth",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Food",
+            "Tags": ""
+        },
+        {
+            "ID": "1021.14",
+            "Label": "Grape",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Food",
+            "Tags": ""
+        },
+        {
+            "ID": "1021.15",
+            "Label": "White Grape",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Food",
+            "Tags": ""
+        },
+        {
+            "ID": "1021.16",
+            "Label": "Cabbage Head",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Food",
+            "Tags": ""
+        },
+        {
+            "ID": "1022.0",
+            "Label": "Cooking Firepit - Unused",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Tools",
+            "Tags": ""
+        },
+        {
+            "ID": "1022.1",
+            "Label": "Cooking Firepit - Unlit",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Tools",
+            "Tags": ""
+        },
+        {
+            "ID": "1022.2",
+            "Label": "Cooking Firepit - Lit",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Tools",
+            "Tags": ""
+        },
+        {
+            "ID": "1022.3",
+            "Label": "Cooking Firepit - Waning",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Tools",
+            "Tags": ""
+        },
+        {
+            "ID": "1022.4",
+            "Label": "Painting Canvas",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Tools",
+            "Tags": ""
+        },
+        {
+            "ID": "1023.0",
+            "Label": "Firewood",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Resources - Other",
+            "Tags": ""
+        },
+        {
+            "ID": "1024.0",
+            "Label": "Bundle of Wheat",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Resources - Natural",
+            "Tags": ""
+        },
+        {
+            "ID": "1024.1",
+            "Label": "Grain",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Resources - Natural",
+            "Tags": ""
+        },
+        {
+            "ID": "1024.2",
+            "Label": "Sack of Grain",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Resources - Natural",
+            "Tags": ""
+        },
+        {
+            "ID": "1025.0",
+            "Label": "Broken Bottles",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Clutter - Exterior",
+            "Tags": ""
+        },
+        {
+            "ID": "1025.1",
+            "Label": "Wood Ad Stand",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Clutter - Exterior",
+            "Tags": ""
+        },
+        {
+            "ID": "1025.2",
+            "Label": "Pine Planter",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Clutter - Exterior",
+            "Tags": ""
+        },
+        {
+            "ID": "1025.3",
+            "Label": "Large Sack",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Clutter - Exterior",
+            "Tags": ""
+        },
+        {
+            "ID": "1025.4",
+            "Label": "Large Planter",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Clutter - Exterior",
+            "Tags": ""
+        },
+        {
+            "ID": "1026.0",
+            "Label": "Empty Gryphon Nest",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Clutter - Wilderness",
+            "Tags": ""
+        },
+        {
+            "ID": "1026.1",
+            "Label": "Gryphon Nest",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Clutter - Wilderness",
+            "Tags": ""
+        },
+        {
+            "ID": "1027.0",
+            "Label": "Tiny Globe",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Clutter - Interior",
+            "Tags": ""
+        },
+        {
+            "ID": "1027.1",
+            "Label": "Wooden Block Toy",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Clutter - Interior",
+            "Tags": ""
+        },
+        {
+            "ID": "1027.2",
+            "Label": "Bread Pan",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Clutter - Interior",
+            "Tags": ""
+        },
+        {
+            "ID": "1027.3",
+            "Label": "Rolling Pin",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Clutter - Interior",
+            "Tags": ""
+        },
+        {
+            "ID": "1027.4",
+            "Label": "Rag",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Clutter - Interior",
+            "Tags": ""
+        },
+        {
+            "ID": "1027.5",
+            "Label": "Hose",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Clutter - Interior",
+            "Tags": ""
+        },
+        {
+            "ID": "1027.6",
+            "Label": "Beige Sheet",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Clutter - Interior",
+            "Tags": ""
+        },
+        {
+            "ID": "1027.7",
+            "Label": "Hose",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Clutter - Interior",
+            "Tags": ""
+        },
+        {
+            "ID": "1027.8",
+            "Label": "White Sock",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Clutter - Interior",
+            "Tags": ""
+        },
+        {
+            "ID": "1027.9",
+            "Label": "White Sock",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Clutter - Interior",
+            "Tags": ""
+        },
+        {
+            "ID": "1027.10",
+            "Label": "Brown Sock",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Clutter - Interior",
+            "Tags": ""
+        },
+        {
+            "ID": "1028.0",
+            "Label": "Weathered Statue of Tiber Septim",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Statues",
+            "Tags": ""
+        },
+        {
+            "ID": "1028.1",
+            "Label": "Oxidising Statue of Tiber Septim",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Statues",
+            "Tags": ""
+        },
+        {
+            "ID": "1028.2",
+            "Label": "Green Statue of Tiber Septim",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Statues",
+            "Tags": ""
+        },
+        {
+            "ID": "1028.3",
+            "Label": "Bronze Statue of Tiber Septim",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Statues",
+            "Tags": ""
+        }
+    ]
+}
