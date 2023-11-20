@@ -19,6 +19,20 @@ MonoBehaviour:
     Record: 3
     ApplyClimate: 1
   UseDungeonTextureTable: 0
+--- !u!64 &-2469390060668174839
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459185854095647964}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3436995028345887896, guid: 8bb1d519c5d6d4a4b8d9551dcf7aaf6c, type: 3}
 --- !u!1001 &1765824592618215821
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -1,6 +1,6 @@
 {
     "ModTitle": "RMB Resource Pack",
-    "ModVersion": "0.1",
+    "ModVersion": "0.1.1",
     "ModAuthor": "Asset creators (maintained by carademono)",
     "ContactInfo": "Lysandus' Tomb",
     "DFUnity_Version": "0.16.0",
@@ -1096,6 +1096,7 @@
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Hills/Small/52232.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Bridges/53129.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Bridges/53130.prefab",
-        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Bridges/53128.prefab"
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Bridges/53128.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/rmb-resource-pack.dfmod.json"
     ]
 }
