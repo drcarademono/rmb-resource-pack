@@ -1097,6 +1097,11 @@
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Bridges/53129.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Bridges/53130.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Bridges/53128.prefab",
-        "Assets/Game/Mods/rmb-resource-pack/rmb-resource-pack.dfmod.json"
+        "Assets/Game/Mods/rmb-resource-pack/rmb-resource-pack.dfmod.json",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Docks/53141.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Docks/53143.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Docks/53142.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Docks/53140.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Docks/53144.prefab"
     ]
 }
