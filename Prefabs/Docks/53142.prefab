@@ -61,6 +61,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 0}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -99,9 +100,9 @@ MonoBehaviour:
     Archive: 67
     Record: 7
     ApplyClimate: 1
-  - Index: 2
+  - Index: 1
     Archive: 67
-    Record: 2
+    Record: 1
     ApplyClimate: 1
   UseDungeonTextureTable: 0
 --- !u!64 &7957523466684592210
