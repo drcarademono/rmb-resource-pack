@@ -17,8 +17,8 @@
             },
             "Block3dObjectRecords": [
                 {
-                    "ModelId": "530",
-                    "ModelIdNum": 530,
+                    "ModelId": "529",
+                    "ModelIdNum": 529,
                     "ObjectType": 4,
                     "XPos": 0,
                     "YPos": 0,
@@ -327,17 +327,6 @@
                     "XPos": -64,
                     "YPos": -128,
                     "ZPos": -65,
-                    "XRotation": 0,
-                    "YRotation": 0,
-                    "ZRotation": 0
-                },
-                {
-                    "ModelId": "2040",
-                    "ModelIdNum": 2040,
-                    "ObjectType": 13,
-                    "XPos": -128,
-                    "YPos": -128,
-                    "ZPos": 127,
                     "XRotation": 0,
                     "YRotation": 0,
                     "ZRotation": 0
