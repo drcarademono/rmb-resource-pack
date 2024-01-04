@@ -84,8 +84,8 @@
                     "ZRotation": 0
                 },
                 {
-                    "ModelId": "19008",
-                    "ModelIdNum": 19008,
+                    "ModelId": "19002",
+                    "ModelIdNum": 19002,
                     "ObjectType": 4,
                     "XPos": 128,
                     "YPos": -129,
@@ -107,8 +107,8 @@
                     "ZRotation": 0
                 },
                 {
-                    "ModelId": "19014",
-                    "ModelIdNum": 19014,
+                    "ModelId": "19002",
+                    "ModelIdNum": 19002,
                     "ObjectType": 4,
                     "XPos": -128,
                     "YPos": -129,
