@@ -100,7 +100,7 @@
                     "XPos": 64,
                     "YPos": -64,
                     "ZPos": -244,
-                    "YScale": 1.02,
+                    "YScale": 1.03,
                     "XRotation": 0,
                     "YRotation": -1536,
                     "ZRotation": 0
@@ -112,7 +112,7 @@
                     "XPos": -64,
                     "YPos": -64,
                     "ZPos": -244,
-                    "YScale": 1.02,
+                    "YScale": 1.03,
                     "XRotation": 0,
                     "YRotation": -1536,
                     "ZRotation": 0
@@ -124,7 +124,7 @@
                     "XPos": 192,
                     "YPos": -64,
                     "ZPos": -244,
-                    "YScale": 1.02,
+                    "YScale": 1.03,
                     "XRotation": 0,
                     "YRotation": -1536,
                     "ZRotation": 0
@@ -147,7 +147,7 @@
                     "XPos": 244,
                     "YPos": -64,
                     "ZPos": -192,
-                    "YScale": 1.02,
+                    "YScale": 1.03,
                     "XRotation": 0,
                     "YRotation": 0,
                     "ZRotation": 0
@@ -159,7 +159,7 @@
                     "XPos": 244,
                     "YPos": -64,
                     "ZPos": -64,
-                    "YScale": 1.02,
+                    "YScale": 1.03,
                     "XRotation": 0,
                     "YRotation": 0,
                     "ZRotation": 0
@@ -171,7 +171,7 @@
                     "XPos": 248,
                     "YPos": -64,
                     "ZPos": 64,
-                    "YScale": 1.02,
+                    "YScale": 1.03,
                     "XRotation": 0,
                     "YRotation": 0,
                     "ZRotation": 0
