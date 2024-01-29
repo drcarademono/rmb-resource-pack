@@ -1,10 +1,10 @@
 {
     "ModTitle": "RMB Resource Pack",
-    "ModVersion": "0.1.1",
+    "ModVersion": "0.1.2",
     "ModAuthor": "Asset creators (maintained by carademono)",
-    "ContactInfo": "Lysandus' Tomb",
-    "DFUnity_Version": "0.16.0",
-    "ModDescription": "The RMB Resource Pack is an organized collection of new assets for RMB modders.",
+    "ContactInfo": "Lysandus' Tomb Discord server",
+    "DFUnity_Version": "1.0.0",
+    "ModDescription": "The RMB Resource Pack is an organized collection of new assets for RMB modders",
     "GUID": "24b43287-5e37-450f-954a-a1e3bbb3bf9e",
     "Files": [
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Hills/Small/52102.prefab",
@@ -1103,6 +1103,8 @@
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Docks/53142.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Docks/53140.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Docks/53144.prefab",
-        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Structures/53160.prefab"
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Structures/53160.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Structures/53170.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Buildings/53500.prefab"
     ]
 }
