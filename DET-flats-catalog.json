@@ -1,6 +1,20 @@
 {
     "_list": [
         {
+            "ID": "1008.0",
+            "Label": "Dead Stag",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animal Corpses",
+            "Tags": ""
+        },
+        {
+            "ID": "1008.1",
+            "Label": "Dead Doe",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animal Corpses",
+            "Tags": ""
+        },
+        {
             "ID": "1009.0",
             "Label": "Nesting Griffin",
             "Category": "Daggerfall Expanded Textures",
@@ -59,6 +73,146 @@
         {
             "ID": "1009.8",
             "Label": "Grazing Doe",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Wildlife",
+            "Tags": ""
+        },
+        {
+            "ID": "1009.9",
+            "Label": "Red Butterfly",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Wildlife",
+            "Tags": ""
+        },
+        {
+            "ID": "1009.10",
+            "Label": "Cabbage Butterfly",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Wildlife",
+            "Tags": ""
+        },
+        {
+            "ID": "1009.11",
+            "Label": "Brown Mother Monkey",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Wildlife",
+            "Tags": ""
+        },
+        {
+            "ID": "1009.12",
+            "Label": "Brown Male Monkey",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Wildlife",
+            "Tags": ""
+        },
+        {
+            "ID": "1009.13",
+            "Label": "Brown Monkey",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Wildlife",
+            "Tags": ""
+        },
+        {
+            "ID": "1009.14",
+            "Label": "Brown Monkey",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Wildlife",
+            "Tags": ""
+        },
+        {
+            "ID": "1009.15",
+            "Label": "Brown Monkey",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Wildlife",
+            "Tags": ""
+        },
+        {
+            "ID": "1009.16",
+            "Label": "Mother Monkey",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Wildlife",
+            "Tags": ""
+        },
+        {
+            "ID": "1009.17",
+            "Label": "Solo Baby Monkey",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Wildlife",
+            "Tags": ""
+        },
+        {
+            "ID": "1009.18",
+            "Label": "Cabbage Butterfly",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Wildlife",
+            "Tags": ""
+        },
+        {
+            "ID": "1009.19",
+            "Label": "Posed Doe",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Wildlife",
+            "Tags": ""
+        },
+        {
+            "ID": "1009.20",
+            "Label": "Posed Doe",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Wildlife",
+            "Tags": ""
+        },
+        {
+            "ID": "1009.21",
+            "Label": "Posed Young Doe",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Wildlife",
+            "Tags": ""
+        },
+        {
+            "ID": "1009.22",
+            "Label": "Fawn",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Wildlife",
+            "Tags": ""
+        },
+        {
+            "ID": "1009.23",
+            "Label": "Posed Stag",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Wildlife",
+            "Tags": ""
+        },
+        {
+            "ID": "1009.24",
+            "Label": "Duneripper",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Wildlife",
+            "Tags": ""
+        },
+        {
+            "ID": "1009.25",
+            "Label": "Duneripper",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Wildlife",
+            "Tags": ""
+        },
+        {
+            "ID": "1009.26",
+            "Label": "Coyote",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Wildlife",
+            "Tags": ""
+        },
+        {
+            "ID": "1009.27",
+            "Label": "Coyote",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Wildlife",
+            "Tags": ""
+        },
+        {
+            "ID": "1009.28",
+            "Label": "Coyote",
             "Category": "Daggerfall Expanded Textures",
             "Subcategory": "Animals - Wildlife",
             "Tags": ""
@@ -435,6 +589,188 @@
             "Tags": ""
         },
         {
+            "ID": "1010.53",
+            "Label": "Brown Camel",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.54",
+            "Label": "Brown Camel",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.55",
+            "Label": "Brown Camel",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.56",
+            "Label": "Brown Camel",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.57",
+            "Label": "Brown War Camel",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.58",
+            "Label": "Baby Brown Camel",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.59",
+            "Label": "Brown Riding Camel",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.60",
+            "Label": "Alcaire Belted Cattle",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.61",
+            "Label": "Brown Cow",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.62",
+            "Label": "Alcaire Belted Cattle",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.63",
+            "Label": "Alcaire Belted Cattle",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.64",
+            "Label": "Alcaire Belted Cattle",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.65",
+            "Label": "Alcaire Belted Cattle",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.66",
+            "Label": "Alcaire Belted Calf",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.67",
+            "Label": "Alcaire Belted Cattle",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.68",
+            "Label": "Alcaire Belted Cattle",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.69",
+            "Label": "Alcaire Belted Cattle",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.70",
+            "Label": "Alcaire Belted Cattle",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.71",
+            "Label": "Alcaire Belted Cattle",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.72",
+            "Label": "Alcaire Belted Cattle",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.73",
+            "Label": "Great Daenian Dog",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.74",
+            "Label": "Great Daenian Dog",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.75",
+            "Label": "Great Daenian Dog",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.76",
+            "Label": "Great Daenian Dog",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.77",
+            "Label": "Great Daenian Dog",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
+            "ID": "1010.78",
+            "Label": "Great Daenian Dog",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
+            "Tags": ""
+        },
+        {
             "ID": "1011.0",
             "Label": "Orc Chieftain",
             "Category": "Daggerfall Expanded Textures",
@@ -600,6 +936,13 @@
             "Label": "Praying Pilgrim",
             "Category": "Daggerfall Expanded Textures",
             "Subcategory": "NPCs - Priests and Pilgrims",
+            "Tags": ""
+        },
+        {
+            "ID": "1014.6",
+            "Label": "1014.6",
+            "Category": "Daggerfall Expanded Textures",
+            "Subcategory": "Animals - Domestic",
             "Tags": ""
         },
         {

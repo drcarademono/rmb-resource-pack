@@ -1,6 +1,7 @@
 import re
 import json
 import sys
+import os
 
 # Check if the JSON file name is provided as a command-line argument
 if len(sys.argv) < 2:
@@ -15,12 +16,15 @@ with open(json_file, 'r') as f:
 # Extracting the file paths
 files = data['Files']
 
-# Function to extract the numeric part of the string
-def extract_numeric(file_path):
-    return int(re.search(r'\d+', file_path).group())
+# Function to create a sorting key: a tuple of the text part and the numeric part of the filename
+def sorting_key(file_path):
+    filename = os.path.basename(file_path)  # Extracts the filename from the path
+    parts = re.split(r'(\d+)', filename)
+    numeric_parts = [int(part) if part.isdigit() else part.lower() for part in parts]
+    return numeric_parts
 
-# Sorting the files first by the alphanumeric part and then by the numeric part
-files.sort(key=lambda x: (re.split(r'(\d+)', x.lower()), extract_numeric(x)))
+# Sorting the files using the custom sorting key
+files.sort(key=sorting_key)
 
 # Writing the rearranged files back to the JSON
 data['Files'] = files
@@ -29,5 +33,5 @@ data['Files'] = files
 with open(json_file, 'w') as f:
     json.dump(data, f, indent=4)
 
-print(f"Files in {json_file} have been rearranged in alphabetical and numeric order.")
+print(f"Files in {json_file} have been rearranged in alphabetical and numeric order by filename.")
 
