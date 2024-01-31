@@ -188,22 +188,22 @@
                 },
                 {
                     "ModelId": "2102",
-                    "ModelIdNum": 2802,
+                    "ModelIdNum": 2102,
                     "ObjectType": 4,
-                    "XPos": 1,
+                    "XPos": 128,
                     "YPos": -1,
-                    "ZPos": -275,
+                    "ZPos": -147,
                     "XRotation": 0,
                     "YRotation": -1536,
                     "ZRotation": 0
                 },
                 {
                     "ModelId": "2102",
-                    "ModelIdNum": 2802,
+                    "ModelIdNum": 2102,
                     "ObjectType": 4,
-                    "XPos": 1,
+                    "XPos": 128,
                     "YPos": -130,
-                    "ZPos": -294,
+                    "ZPos": -166,
                     "XRotation": 0,
                     "YRotation": -1536,
                     "ZRotation": 0
