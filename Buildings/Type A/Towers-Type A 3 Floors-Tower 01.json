@@ -73,11 +73,11 @@
                 },
                 {
                     "ModelId": "2100",
-                    "ModelIdNum": 2100,
+                    "ModelIdNum": 2800,
                     "ObjectType": 4,
                     "XPos": 65,
-                    "YPos": -128,
-                    "ZPos": -66,
+                    "YPos": 0,
+                    "ZPos": -194,
                     "XRotation": 0,
                     "YRotation": 0,
                     "ZRotation": 0

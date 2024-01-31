@@ -84,11 +84,11 @@
                 },
                 {
                     "ModelId": "2014",
-                    "ModelIdNum": 2014,
+                    "ModelIdNum": 2814,
                     "ObjectType": 4,
                     "XPos": 64,
-                    "YPos": -129,
-                    "ZPos": -63,
+                    "YPos": -1,
+                    "ZPos": -191,
                     "XRotation": 0,
                     "YRotation": -1024,
                     "ZRotation": 0

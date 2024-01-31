@@ -155,22 +155,22 @@
                 },
                 {
                     "ModelId": "2008",
-                    "ModelIdNum": 2008,
+                    "ModelIdNum": 2808,
                     "ObjectType": 4,
                     "XPos": 65,
-                    "YPos": -129,
-                    "ZPos": -147,
+                    "YPos": -1,
+                    "ZPos": -275,
                     "XRotation": 0,
                     "YRotation": -1536,
                     "ZRotation": 0
                 },
                 {
                     "ModelId": "2102",
-                    "ModelIdNum": 2102,
+                    "ModelIdNum": 2802,
                     "ObjectType": 4,
                     "XPos": 65,
-                    "YPos": -258,
-                    "ZPos": -230,
+                    "YPos": -130,
+                    "ZPos": -358,
                     "XRotation": 0,
                     "YRotation": -1536,
                     "ZRotation": 0

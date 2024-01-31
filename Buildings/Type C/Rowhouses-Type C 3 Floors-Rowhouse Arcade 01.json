@@ -84,11 +84,11 @@
                 },
                 {
                     "ModelId": "2002",
-                    "ModelIdNum": 2002,
+                    "ModelIdNum": 2802,
                     "ObjectType": 4,
                     "XPos": -192,
-                    "YPos": -128,
-                    "ZPos": -1,
+                    "YPos": 0,
+                    "ZPos": -129,
                     "XRotation": 0,
                     "YRotation": 0,
                     "ZRotation": 0
