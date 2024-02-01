@@ -67,7 +67,7 @@
                     "ObjectType": 4,
                     "XPos": 65,
                     "YPos": -228,
-                    "ZPos": -269,
+                    "ZPos": -270,
                     "XRotation": 0,
                     "YRotation": -512,
                     "ZRotation": 0
@@ -78,7 +78,7 @@
                     "ObjectType": 4,
                     "XPos": 192,
                     "YPos": -228,
-                    "ZPos": -269,
+                    "ZPos": -270,
                     "XRotation": 0,
                     "YRotation": -512,
                     "ZRotation": 0
@@ -270,6 +270,17 @@
                     "ZPos": -211,
                     "XRotation": 0,
                     "YRotation": 0,
+                    "ZRotation": 0
+                },
+                {
+                    "ModelId": "2802",
+                    "ModelIdNum": 2802,
+                    "ObjectType": 4,
+                    "XPos": -64,
+                    "YPos": -130,
+                    "ZPos": -230,
+                    "XRotation": 0,
+                    "YRotation": -512,
                     "ZRotation": 0
                 }
             ],

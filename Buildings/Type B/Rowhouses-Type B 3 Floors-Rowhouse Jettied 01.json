@@ -87,17 +87,6 @@
                     "ZRotation": 0
                 },
                 {
-                    "ModelId": "2103",
-                    "ModelIdNum": 2103,
-                    "ObjectType": 4,
-                    "XPos": -147,
-                    "YPos": 2,
-                    "ZPos": -192,
-                    "XRotation": 0,
-                    "YRotation": 0,
-                    "ZRotation": 0
-                },
-                {
                     "ModelId": "62318",
                     "ModelIdNum": 62318,
                     "ObjectType": 4,
@@ -172,6 +161,17 @@
                     "ZPos": -192,
                     "XRotation": 0,
                     "YRotation": -1024,
+                    "ZRotation": 0
+                },
+                {
+                    "ModelId": "2803",
+                    "ModelIdNum": 2803,
+                    "ObjectType": 4,
+                    "XPos": -147,
+                    "YPos": 2,
+                    "ZPos": -192,
+                    "XRotation": 0,
+                    "YRotation": 0,
                     "ZRotation": 0
                 }
             ],
