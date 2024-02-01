@@ -113,8 +113,8 @@
                     "ModelIdNum": 25000,
                     "ObjectType": 4,
                     "XPos": -160,
-                    "YPos": -384,
-                    "ZPos": 171,
+                    "YPos": -383,
+                    "ZPos": 168,
                     "XScale": 1.3,
                     "ZScale": 1.1,
                     "XRotation": 0,
@@ -133,23 +133,23 @@
                     "ZRotation": 0
                 },
                 {
-                    "ModelId": "2103",
+                    "ModelId": "2803",
                     "ModelIdNum": 2803,
                     "ObjectType": 4,
                     "XPos": -147,
                     "YPos": 2,
-                    "ZPos": -129,
+                    "ZPos": -192,
                     "XRotation": 0,
                     "YRotation": 0,
                     "ZRotation": 0
                 },
                 {
-                    "ModelId": "2103",
+                    "ModelId": "2803",
                     "ModelIdNum": 2803,
                     "ObjectType": 4,
                     "XPos": -166,
                     "YPos": -127,
-                    "ZPos": -129,
+                    "ZPos": -192,
                     "XRotation": 0,
                     "YRotation": 0,
                     "ZRotation": 0

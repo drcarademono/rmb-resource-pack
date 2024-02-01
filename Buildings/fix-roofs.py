@@ -18,10 +18,7 @@ def update_model_id(obj):
     model_id_num = obj.get('ModelIdNum')
 
     if isinstance(model_id_num, int) and 2000 <= model_id_num < 3000:
-        if is_in_specified_range(model_id_num):
-            obj['YPos'] += 128
-            obj['ZPos'] -= 128
-
+        obj['ModelId'] = '28' + str(model_id_num)[2:]
         obj['ModelIdNum'] = int('28' + str(model_id_num)[2:])
 
 def process_block3dobjectrecords(section):
