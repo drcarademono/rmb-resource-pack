@@ -1,91 +1,91 @@
 {
     "_list": [
         {
-            "ID": "1200.0",
+            "ID": "1200.2",
             "Label": "Redguard Juggler",
             "Category": "People",
             "Subcategory": "StarMadeKnight's NPCs [20]",
             "Tags": ""
         },
         {
-            "ID": "1200.1",
+            "ID": "1200.4",
             "Label": "Redguard Merchant",
             "Category": "People",
             "Subcategory": "StarMadeKnight's NPCs [20]",
             "Tags": ""
         },
         {
-            "ID": "1200.2",
+            "ID": "1200.5",
             "Label": "Redguard Woman with Laundry",
             "Category": "People",
             "Subcategory": "StarMadeKnight's NPCs [20]",
             "Tags": ""
         },
         {
-            "ID": "1200.3",
+            "ID": "1200.6",
             "Label": "Redguard Boy",
             "Category": "People",
             "Subcategory": "StarMadeKnight's NPCs [20]",
             "Tags": ""
         },
         {
-            "ID": "1200.4",
+            "ID": "1200.7",
             "Label": "Redguard Woman",
             "Category": "People",
             "Subcategory": "StarMadeKnight's NPCs [20]",
             "Tags": ""
         },
         {
-            "ID": "1200.5",
+            "ID": "1200.3",
             "Label": "Redguard Noblewoman",
             "Category": "People",
             "Subcategory": "StarMadeKnight's NPCs [20]",
             "Tags": ""
         },
         {
-            "ID": "1200.6",
+            "ID": "1200.8",
             "Label": "Redguard Pirate (Man)",
             "Category": "People",
             "Subcategory": "StarMadeKnight's NPCs [20]",
             "Tags": ""
         },
         {
-            "ID": "1200.7",
+            "ID": "1200.9",
             "Label": "Redguard Pirate (Woman)",
             "Category": "People",
             "Subcategory": "StarMadeKnight's NPCs [20]",
             "Tags": ""
         },
         {
-            "ID": "1200.8",
+            "ID": "1200.10",
             "Label": "Wealthy Redguard Man",
             "Category": "People",
             "Subcategory": "StarMadeKnight's NPCs [20]",
             "Tags": ""
         },
         {
-            "ID": "1200.9",
+            "ID": "1200.11",
             "Label": "Veiled Redguard Woman (Blue)",
             "Category": "People",
             "Subcategory": "StarMadeKnight's NPCs [20]",
             "Tags": ""
         },
         {
-            "ID": "1200.10",
+            "ID": "1200.12",
             "Label": "Veiled Redguard Woman (Pink)",
             "Category": "People",
             "Subcategory": "StarMadeKnight's NPCs [20]",
             "Tags": ""
         },
         {
-            "ID": "1200.11",
+            "ID": "1200.20",
             "Label": "Naked Dark Elf Woman",
             "Category": "People",
             "Subcategory": "StarMadeKnight's NPCs [20]",
             "Tags": ""
         },
         {
-            "ID": "1200.12",
+            "ID": "1200.21",
             "Label": "Mustachioed Wizard",
             "Category": "People",
             "Subcategory": "StarMadeKnight's NPCs [20]",
@@ -138,6 +138,162 @@
             "Label": "Armored Woman",
             "Category": "People",
             "Subcategory": "StarMadeKnight's NPCs [20]",
+            "Tags": ""
+        },
+        {
+            "ID": "1200.22",
+            "Label": "Redguard Guard 1",
+            "Category": "People",
+            "Subcategory": "Arena Sprites Improved (carademono)",
+            "Tags": ""
+        },
+        {
+            "ID": "1200.23",
+            "Label": "Redguard Guard 2",
+            "Category": "People",
+            "Subcategory": "Arena Sprites Improved (carademono)",
+            "Tags": ""
+        },
+        {
+            "ID": "1200.24",
+            "Label": "Redguard Guard 3",
+            "Category": "People",
+            "Subcategory": "Arena Sprites Improved (carademono)",
+            "Tags": ""
+        },
+        {
+            "ID": "1200.39",
+            "Label": "Redguard Guard 4",
+            "Category": "People",
+            "Subcategory": "Arena Sprites Improved (carademono)",
+            "Tags": ""
+        },
+        {
+            "ID": "1200.40",
+            "Label": "Redguard Guard 5",
+            "Category": "People",
+            "Subcategory": "Arena Sprites Improved (carademono)",
+            "Tags": ""
+        },
+        {
+            "ID": "1200.41",
+            "Label": "Redguard Guard 6",
+            "Category": "People",
+            "Subcategory": "Arena Sprites Improved (carademono)",
+            "Tags": ""
+        },
+        {
+            "ID": "1200.42",
+            "Label": "Redguard Guard 7",
+            "Category": "People",
+            "Subcategory": "Arena Sprites Improved (carademono)",
+            "Tags": ""
+        },
+        {
+            "ID": "1200.45",
+            "Label": "Redguard Guard 8",
+            "Category": "People",
+            "Subcategory": "Arena Sprites Improved (carademono)",
+            "Tags": ""
+        },
+        {
+            "ID": "1210.0",
+            "Label": "Paper 1",
+            "Category": "Interior",
+            "Subcategory": "Cliffworms' Items",
+            "Tags": ""
+        }
+		,
+        {
+            "ID": "1210.1",
+            "Label": "Paper 2",
+            "Category": "Interior",
+            "Subcategory": "Cliffworms' Items",
+            "Tags": ""
+        },
+        {
+            "ID": "1210.2",
+            "Label": "Papers",
+            "Category": "Interior",
+            "Subcategory": "Cliffworms' Items",
+            "Tags": ""
+        },
+        {
+            "ID": "1210.3",
+            "Label": "Scroll",
+            "Category": "Interior",
+            "Subcategory": "Cliffworms' Items",
+            "Tags": ""
+        },
+        {
+            "ID": "1210.4",
+            "Label": "Scrolls",
+            "Category": "Interior",
+            "Subcategory": "Cliffworms' Items",
+            "Tags": ""
+        },
+        {
+            "ID": "1210.5",
+            "Label": "Candle 1",
+            "Category": "Interior",
+            "Subcategory": "Cliffworms' Items",
+            "Tags": ""
+        },
+        {
+            "ID": "1210.6",
+            "Label": "Candle - Skull",
+            "Category": "Interior",
+            "Subcategory": "Cliffworms' Items",
+            "Tags": ""
+        },
+        {
+            "ID": "1210.7",
+            "Label": "Candle 2",
+            "Category": "Interior",
+            "Subcategory": "Cliffworms' Items",
+            "Tags": ""
+        },
+        {
+            "ID": "1210.8",
+            "Label": "Basket of Apples",
+            "Category": "Interior",
+            "Subcategory": "Cliffworms' Items",
+            "Tags": ""
+        }
+		,
+        {
+            "ID": "1210.9",
+            "Label": "Basket of Oranges",
+            "Category": "Interior",
+            "Subcategory": "Cliffworms' Items",
+            "Tags": ""
+        },
+        {
+            "ID": "1210.10",
+            "Label": "Bottle - Green",
+            "Category": "Interior",
+            "Subcategory": "Cliffworms' Items",
+            "Tags": ""
+        },
+        {
+            "ID": "1210.11",
+            "Label": "Bottle - Blue",
+            "Category": "Interior",
+            "Subcategory": "Cliffworms' Items",
+            "Tags": ""
+        },
+		{
+            "ID": "1210.12",
+            "Label": "Bottle - Brown",
+            "Category": "Interior",
+            "Subcategory": "Cliffworms' Items",
+            "Tags": ""
+        },
+				{
+            "ID": "1230.1",
+            "Label": "Wyrm on a Stand",
+            "Category": "Interior",
+            "Subcategory": "Cliffworms' Items",
             "Tags": ""
         }
     ]
