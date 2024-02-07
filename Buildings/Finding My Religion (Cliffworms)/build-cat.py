@@ -74,7 +74,7 @@ for item in output_data["list"]:
 output_data["list"].sort(key=lambda x: (x['Category'], x['Subcategory'], x['Label']))
 
 # Output the final data to a JSON file
-output_file = "output.json"
+output_file = "rmbrp-buildings-catalog.json"
 with open(output_file, "w") as f:
     json.dump(output_data, f, indent=4)
 

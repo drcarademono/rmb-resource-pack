@@ -99,7 +99,7 @@
     ],
     "templates": {
         "3000": {
-            "FactionId": 0,
+            "FactionId": 27,
             "BuildingType": 14,
             "Quality": 7,
             "NameSeed": 0,
@@ -3313,7 +3313,7 @@
             "AutoMapData": null
         },
         "3001": {
-            "FactionId": 0,
+            "FactionId": 22,
             "BuildingType": 14,
             "Quality": 7,
             "NameSeed": 0,
@@ -6716,7 +6716,7 @@
             "AutoMapData": null
         },
         "3002": {
-            "FactionId": 0,
+            "FactionId": 24,
             "BuildingType": 14,
             "Quality": 7,
             "NameSeed": 0,
@@ -10101,7 +10101,7 @@
             "AutoMapData": null
         },
         "3003": {
-            "FactionId": 0,
+            "FactionId": 21,
             "BuildingType": 14,
             "Quality": 7,
             "NameSeed": 0,
@@ -15422,7 +15422,7 @@
             "AutoMapData": null
         },
         "3004": {
-            "FactionId": 0,
+            "FactionId": 24,
             "BuildingType": 14,
             "Quality": 7,
             "NameSeed": 0,
@@ -19200,7 +19200,7 @@
             "AutoMapData": null
         },
         "3005": {
-            "FactionId": 0,
+            "FactionId": 33,
             "BuildingType": 14,
             "Quality": 7,
             "NameSeed": 0,
@@ -23153,7 +23153,7 @@
             "AutoMapData": null
         },
         "3006": {
-            "FactionId": 0,
+            "FactionId": 33,
             "BuildingType": 14,
             "Quality": 7,
             "NameSeed": 0,
@@ -27966,7 +27966,7 @@
             "AutoMapData": null
         },
         "3007": {
-            "FactionId": 0,
+            "FactionId": 29,
             "BuildingType": 14,
             "Quality": 7,
             "NameSeed": 0,
@@ -31631,7 +31631,7 @@
             "AutoMapData": null
         },
         "3008": {
-            "FactionId": 0,
+            "FactionId": 26,
             "BuildingType": 14,
             "Quality": 7,
             "NameSeed": 0,
@@ -35653,7 +35653,7 @@
             "AutoMapData": null
         },
         "3009": {
-            "FactionId": 0,
+            "FactionId": 22,
             "BuildingType": 14,
             "Quality": 7,
             "NameSeed": 0,
@@ -38466,7 +38466,7 @@
             "AutoMapData": null
         },
         "3010": {
-            "FactionId": 0,
+            "FactionId": 21,
             "BuildingType": 14,
             "Quality": 7,
             "NameSeed": 0,
@@ -41142,7 +41142,7 @@
             "AutoMapData": null
         },
         "3011": {
-            "FactionId": 0,
+            "FactionId": 29,
             "BuildingType": 14,
             "Quality": 7,
             "NameSeed": 0,
@@ -54855,7 +54855,7 @@
             "AutoMapData": null
         },
         "3014": {
-            "FactionId": 0,
+            "FactionId": 26,
             "BuildingType": 14,
             "Quality": 7,
             "NameSeed": 0,
@@ -58148,7 +58148,7 @@
             "AutoMapData": null
         },
         "3015": {
-            "FactionId": 0,
+            "FactionId": 27,
             "BuildingType": 14,
             "Quality": 7,
             "NameSeed": 0,
