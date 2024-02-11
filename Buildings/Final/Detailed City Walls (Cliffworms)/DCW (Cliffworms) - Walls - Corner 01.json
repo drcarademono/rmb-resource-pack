@@ -26,44 +26,11 @@
                     "XRotation": 0,
                     "YRotation": 0,
                     "ZRotation": 0
-                },
-                {
-                    "ModelId": "41701",
-                    "ModelIdNum": 41701,
-                    "ObjectType": 4,
-                    "XPos": 200,
-                    "YPos": -1,
-                    "ZPos": -636,
-                    "XRotation": 0,
-                    "YRotation": -494,
-                    "ZRotation": 0
-                },
-                {
-                    "ModelId": "41701",
-                    "ModelIdNum": 41701,
-                    "ObjectType": 4,
-                    "XPos": 200,
-                    "YPos": -1,
-                    "ZPos": -529,
-                    "XRotation": 0,
-                    "YRotation": -529,
-                    "ZRotation": 0
-                },
-                {
-                    "ModelId": "41214",
-                    "ModelIdNum": 41214,
-                    "ObjectType": 4,
-                    "XPos": 368,
-                    "YPos": -30,
-                    "ZPos": -204,
-                    "XRotation": -91,
-                    "YRotation": -1012,
-                    "ZRotation": 0
                 }
             ],
             "BlockFlatObjectRecords": [
                 {
-                    "Position": 0,
+                    "Position": 7427,
                     "XPos": 0,
                     "YPos": -314,
                     "ZPos": -135,
@@ -73,7 +40,7 @@
                     "Flags": 0
                 },
                 {
-                    "Position": 0,
+                    "Position": 7428,
                     "XPos": 135,
                     "YPos": -314,
                     "ZPos": 2,
@@ -83,31 +50,11 @@
                     "Flags": 0
                 },
                 {
-                    "Position": 0,
+                    "Position": 7429,
                     "XPos": 48,
                     "YPos": -515,
                     "ZPos": 155,
                     "TextureArchive": 210,
-                    "TextureRecord": 0,
-                    "FactionID": 0,
-                    "Flags": 0
-                },
-                {
-                    "Position": 0,
-                    "XPos": 292,
-                    "YPos": -6,
-                    "ZPos": -151,
-                    "TextureArchive": 211,
-                    "TextureRecord": 16,
-                    "FactionID": 0,
-                    "Flags": 0
-                },
-                {
-                    "Position": 0,
-                    "XPos": 212,
-                    "YPos": -5,
-                    "ZPos": -393,
-                    "TextureArchive": 212,
                     "TextureRecord": 0,
                     "FactionID": 0,
                     "Flags": 0
@@ -1190,7 +1137,7 @@
             "BlockSection3Records": [],
             "BlockPeopleRecords": [
                 {
-                    "Position": 0,
+                    "Position": 7424,
                     "XPos": -274,
                     "YPos": 130,
                     "ZPos": 78,
@@ -1200,7 +1147,7 @@
                     "Flags": 0
                 },
                 {
-                    "Position": 1,
+                    "Position": 7425,
                     "XPos": -221,
                     "YPos": 128,
                     "ZPos": -179,
@@ -1210,7 +1157,7 @@
                     "Flags": 0
                 },
                 {
-                    "Position": 2,
+                    "Position": 7426,
                     "XPos": 190,
                     "YPos": 130,
                     "ZPos": 101,

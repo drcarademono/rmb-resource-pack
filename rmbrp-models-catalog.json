@@ -7356,6 +7356,20 @@
             "Category": "Structures",
             "Subcategory": "Domes",
             "Tags": ""
+        },
+        {
+            "ID": "52990",
+            "Label": "Smoke (year-round)",
+            "Category": "Effects",
+            "Subcategory": "Smoke (use placeholder model)",
+            "Tags": ""
+        },
+        {
+            "ID": "52991",
+            "Label": "Smoke (winter)",
+            "Category": "Effects",
+            "Subcategory": "Smoke (use placeholder model)",
+            "Tags": ""
         }
     ]
 }
