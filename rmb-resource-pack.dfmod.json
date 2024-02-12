@@ -1206,6 +1206,10 @@
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/FX/52991.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/FX/52990.prefab",
         "Assets/Game/Mods/Lively-Cities/Scripts/LivelyCitiesMod.cs",
-        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Ports/53250.prefab"
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Ports/53250.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Structures/53171.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Scripts/CustomRuntimeMaterials.cs",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Ports/53253.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Ports/53256.prefab"
     ]
 }

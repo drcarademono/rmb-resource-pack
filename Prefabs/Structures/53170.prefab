@@ -97,12 +97,12 @@ MonoBehaviour:
   hasAppliedMaterials: 0
   Materials:
   - Index: 0
-    Archive: 322
-    Record: 1
+    Archive: 317
+    Record: 0
     ApplyClimate: 1
   - Index: 1
-    Archive: 322
-    Record: 1
+    Archive: 317
+    Record: 0
     ApplyClimate: 1
   UseDungeonTextureTable: 0
 --- !u!64 &-3660022809636659115
@@ -118,4 +118,4 @@ MeshCollider:
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: -2369276144180660552, guid: 309746e37a18c8032bd82606cca66e55, type: 3}
+  m_Mesh: {fileID: 3381973146284961686, guid: 4cbbec25b11f58a4894bc8fa3a082674, type: 3}
