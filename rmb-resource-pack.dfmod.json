@@ -1210,6 +1210,10 @@
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Structures/53171.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Scripts/CustomRuntimeMaterials.cs",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Ports/53253.prefab",
-        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Ports/53256.prefab"
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Ports/53256.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Ports/53251.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Ports/53257.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Ports/53258.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Ports/53254.prefab"
     ]
 }
