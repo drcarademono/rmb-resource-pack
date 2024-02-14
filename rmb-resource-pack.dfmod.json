@@ -1205,10 +1205,8 @@
         "Assets/Game/Mods/rmb-resource-pack/Assets/Materials/Dome-D.mat",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/FX/52991.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/FX/52990.prefab",
-        "Assets/Game/Mods/Lively-Cities/Scripts/LivelyCitiesMod.cs",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Ports/53250.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Structures/53171.prefab",
-        "Assets/Game/Mods/rmb-resource-pack/Scripts/CustomRuntimeMaterials.cs",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Ports/53253.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Ports/53256.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Ports/53251.prefab",
@@ -1216,6 +1214,8 @@
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Ports/53258.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Ports/53254.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Market/53099.prefab",
-        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Ports/53252.prefab"
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Ports/53252.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Ports/53255.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Scripts/DisableOutsideWinterMod.cs"
     ]
 }

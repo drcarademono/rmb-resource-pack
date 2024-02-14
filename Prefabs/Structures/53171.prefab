@@ -109,34 +109,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   climateMaterialSettings:
-    note: 'Fallbacks: Desert, Mountains, Woodlands, Rainforest.'
     ocean:
-      defaultMaterial: {fileID: 0}
-      winterMaterial: {fileID: 0}
+      defaultMaterials: []
+      winterMaterials: []
     desert:
-      defaultMaterial: {fileID: 0}
-      winterMaterial: {fileID: 0}
+      defaultMaterials: []
+      winterMaterials: []
     desert2:
-      defaultMaterial: {fileID: 0}
-      winterMaterial: {fileID: 0}
+      defaultMaterials: []
+      winterMaterials: []
     mountain:
-      defaultMaterial: {fileID: 0}
-      winterMaterial: {fileID: 0}
+      defaultMaterials: []
+      winterMaterials: []
     rainforest:
-      defaultMaterial: {fileID: 0}
-      winterMaterial: {fileID: 0}
+      defaultMaterials: []
+      winterMaterials: []
     swamp:
-      defaultMaterial: {fileID: 0}
-      winterMaterial: {fileID: 0}
+      defaultMaterials: []
+      winterMaterials: []
     subtropical:
-      defaultMaterial: {fileID: 0}
-      winterMaterial: {fileID: 0}
+      defaultMaterials: []
+      winterMaterials: []
     mountainWoods:
-      defaultMaterial: {fileID: 0}
-      winterMaterial: {fileID: 0}
+      defaultMaterials: []
+      winterMaterials: []
     woodlands:
-      defaultMaterial: {fileID: 0}
-      winterMaterial: {fileID: 0}
+      defaultMaterials:
+      - {fileID: 2100000, guid: 3f37a4d97ac707a80821545c58f35179, type: 2}
+      - {fileID: 2100000, guid: 3f37a4d97ac707a80821545c58f35179, type: 2}
+      winterMaterials:
+      - {fileID: 2100000, guid: 71fbf33c440c75d739bb87eebef2b319, type: 2}
+      - {fileID: 2100000, guid: 71fbf33c440c75d739bb87eebef2b319, type: 2}
     hauntedWoodlands:
-      defaultMaterial: {fileID: 0}
-      winterMaterial: {fileID: 0}
+      defaultMaterials: []
+      winterMaterials: []
