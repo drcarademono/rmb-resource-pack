@@ -1169,11 +1169,11 @@
         "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/NPCs/1200_2-1.png",
         "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/NPCs/1200_2-3.png",
         "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/NPCs/1200_21-4.png",
-        "Assets/Game/Mods/rmb-resource-pack/Assets/Materials/Dome-Tile.mat",
+        "Assets/Game/Mods/rmb-resource-pack/Assets/Materials/1300_0-0.mat",
         "Assets/Game/Mods/rmb-resource-pack/Assets/Materials/Dome-Spire.mat",
         "Assets/Game/Mods/rmb-resource-pack/Assets/Materials/Dome-A.mat",
         "Assets/Game/Mods/rmb-resource-pack/Assets/Materials/Dome-E.mat",
-        "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/Buildings/Dome-Tile.PNG",
+        "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/Buildings/1300_0-0.PNG",
         "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/Buildings/Dome-Spire.PNG",
         "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/Buildings/Dome-E.PNG",
         "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/Buildings/Dome-A.PNG",
@@ -1216,6 +1216,8 @@
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Market/53099.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Ports/53252.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Ports/53255.prefab",
-        "Assets/Game/Mods/rmb-resource-pack/Scripts/DisableOutsideWinterMod.cs"
+        "Assets/Game/Mods/rmb-resource-pack/Scripts/DisableOutsideWinterMod.cs",
+        "Assets/Game/Mods/rmb-resource-pack/Scripts/CustomRuntimeMaterialsMod.cs",
+        "Assets/Game/Mods/rmb-resource-pack/Scripts/CustomRuntimeMaterials.cs"
     ]
 }

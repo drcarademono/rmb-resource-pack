@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4450532803167815949}
   - component: {fileID: 1884632511701220807}
   - component: {fileID: -3660022809636659115}
-  - component: {fileID: -8062183030878915251}
+  - component: {fileID: 3446665528507159918}
   m_Layer: 0
   m_Name: 53171
   m_TagString: Untagged
@@ -96,7 +96,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3381973146284961686, guid: 4cbbec25b11f58a4894bc8fa3a082674, type: 3}
---- !u!114 &-8062183030878915251
+--- !u!114 &3446665528507159918
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -108,38 +108,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 584f45d03edcd6d6393f08e00c35f6a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  climateMaterialSettings:
-    ocean:
-      defaultMaterials: []
-      winterMaterials: []
-    desert:
-      defaultMaterials: []
-      winterMaterials: []
-    desert2:
-      defaultMaterials: []
-      winterMaterials: []
-    mountain:
-      defaultMaterials: []
-      winterMaterials: []
-    rainforest:
-      defaultMaterials: []
-      winterMaterials: []
-    swamp:
-      defaultMaterials: []
-      winterMaterials: []
-    subtropical:
-      defaultMaterials: []
-      winterMaterials: []
-    mountainWoods:
-      defaultMaterials: []
-      winterMaterials: []
-    woodlands:
-      defaultMaterials:
-      - {fileID: 2100000, guid: 3f37a4d97ac707a80821545c58f35179, type: 2}
-      - {fileID: 2100000, guid: 3f37a4d97ac707a80821545c58f35179, type: 2}
-      winterMaterials:
-      - {fileID: 2100000, guid: 71fbf33c440c75d739bb87eebef2b319, type: 2}
-      - {fileID: 2100000, guid: 71fbf33c440c75d739bb87eebef2b319, type: 2}
-    hauntedWoodlands:
-      defaultMaterials: []
-      winterMaterials: []

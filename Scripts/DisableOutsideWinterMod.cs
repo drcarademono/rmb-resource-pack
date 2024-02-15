@@ -15,14 +15,10 @@ namespace DisableOutsideWinter
     [ImportedComponent]
     public class DisableOutsideWinterMod : MonoBehaviour
     {
-        static Mod mod;
 
         [Invoke(StateManager.StateTypes.Start, 0)]
         public static void Init(InitParams initParams)
         {
-            //mod = initParams.Mod;
-            //var go = new GameObject(mod.Title);
-            //go.AddComponent<DisableOutsideWinterMod>();        
         }
 
         private void Awake()
