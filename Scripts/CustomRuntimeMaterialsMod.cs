@@ -95,7 +95,7 @@ namespace CustomRuntimeMaterials
         private void LoadClimateMaterialSettings()
         {
             string cleanName = gameObject.name.Replace("(Clone)", "").Trim();
-            string filePath = Path.Combine(Application.streamingAssetsPath, cleanName + ".json");
+            string filePath = Path.Combine(Application.streamingAssetsPath, "CustomRuntimeMaterials", cleanName + ".json");
             Debug.Log($"[CustomRuntimeMaterials] Attempting to load JSON from {filePath}");
 
             if (File.Exists(filePath))
