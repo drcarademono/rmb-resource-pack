@@ -124,15 +124,31 @@ namespace CustomRuntimeMaterials
             List<Material> materials = new List<Material>();
             foreach (var def in definitions)
             {
-                Material loadedMaterial;
-                if (TextureReplacement.TryImportMaterial(def.archive, def.record, def.frame, out loadedMaterial))
+                Material loadedMaterial = null;
+                Rect rectOut; // Required by GetMaterial but not necessarily used afterwards in this context
+
+                // Get the MaterialReader instance from DaggerfallUnity
+                MaterialReader materialReader = DaggerfallUnity.Instance.MaterialReader;
+
+                // Attempt to use GetMaterial first
+                loadedMaterial = materialReader.GetMaterial(def.archive, def.record, def.frame, 0, out rectOut, 0, false, false);
+
+                if (loadedMaterial == null)
                 {
-                    materials.Add(loadedMaterial);
+                    // Fallback to TryImportMaterial if GetMaterial fails
+                    if (TextureReplacement.TryImportMaterial(def.archive, def.record, def.frame, out loadedMaterial))
+                    {
+                        materials.Add(loadedMaterial);
+                    }
+                    else
+                    {
+                        Debug.LogWarning($"Could not load material for archive: {def.archive}, record: {def.record}, frame: {def.frame}");
+                        materials.Add(null); // Handle missing materials as needed
+                    }
                 }
                 else
                 {
-                    Debug.LogWarning($"Could not load material for archive: {def.archive}, record: {def.record}, frame: {def.frame}");
-                    materials.Add(null); // Handle missing materials as needed
+                    materials.Add(loadedMaterial); // Successfully loaded with GetMaterial
                 }
             }
             return materials.ToArray();
