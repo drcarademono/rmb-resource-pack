@@ -1217,6 +1217,7 @@
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Ports/53252.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Ports/53255.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Scripts/DisableOutsideWinterMod.cs",
-        "Assets/Game/Mods/rmb-resource-pack/Scripts/CustomRuntimeMaterialsMod.cs"
+        "Assets/Game/Mods/rmb-resource-pack/Scripts/CustomRuntimeMaterialsMod.cs",
+        "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/53171.json"
     ]
 }

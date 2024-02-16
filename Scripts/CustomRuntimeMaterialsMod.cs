@@ -92,15 +92,14 @@ namespace CustomRuntimeMaterials
             UpdateMaterialBasedOnClimateAndSeason();
         }
 
-        private void LoadClimateMaterialSettings()
+       private void LoadClimateMaterialSettings()
         {
             string cleanName = gameObject.name.Replace("(Clone)", "").Trim();
-            string filePath = Path.Combine(Application.streamingAssetsPath, "CustomRuntimeMaterials", cleanName + ".json");
-            Debug.Log($"[CustomRuntimeMaterials] Attempting to load JSON from {filePath}");
+            Debug.Log($"[CustomRuntimeMaterials] Attempting to load JSON for '{cleanName}'");
 
-            if (File.Exists(filePath))
+            if (ModManager.Instance.TryGetAsset(cleanName + ".json", clone: false, out TextAsset jsonAsset))
             {
-                string json = File.ReadAllText(filePath);
+                string json = jsonAsset.text;
                 Debug.Log($"[CustomRuntimeMaterials] JSON loaded successfully, contents: {json.Substring(0, Math.Min(json.Length, 500))}...");
 
                 fsResult result = _serializer.TryDeserialize(fsJsonParser.Parse(json), ref climateMaterialSettings);
