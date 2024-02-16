@@ -10,7 +10,7 @@ using DaggerfallWorkshop.Utility;
 using System.IO;
 using FullSerializer;
 
-namespace CustomRuntimeMaterials
+namespace CustomClimateMaterials
 {
     [Serializable]
     public class MaterialDefinition
@@ -62,7 +62,7 @@ namespace CustomRuntimeMaterials
     }
 
     [ImportedComponent]
-    public class CustomRuntimeMaterialsMod : MonoBehaviour
+    public class CustomClimateMaterials : MonoBehaviour
     {
         private ClimateMaterialSettings climateMaterialSettings;
         private MeshRenderer meshRenderer;
@@ -73,44 +73,44 @@ namespace CustomRuntimeMaterials
         [Invoke(StateManager.StateTypes.Start, 0)]
         public static void Init(InitParams initParams)
         {
-            Debug.Log("CustomRuntimeMaterialsMod: Init called.");
+            Debug.Log("CustomClimateMaterials: Init called.");
             mod = initParams.Mod;
             var go = new GameObject(mod.Title);
-            go.AddComponent<CustomRuntimeMaterialsMod>();        
+            go.AddComponent<CustomClimateMaterials>();        
         }
 
         private void Awake()
         {
             meshRenderer = GetComponent<MeshRenderer>();
-            Debug.Log($"[CustomRuntimeMaterials] Awake called for {gameObject.name}");
+            Debug.Log($"[CustomClimateMaterials] Awake called for {gameObject.name}");
             LoadClimateMaterialSettings();
         }
 
         private void Start()
         {
-            Debug.Log("[CustomRuntimeMaterials] Start called");
+            Debug.Log("[CustomClimateMaterials] Start called");
             UpdateMaterialBasedOnClimateAndSeason();
         }
 
        private void LoadClimateMaterialSettings()
         {
             string cleanName = gameObject.name.Replace("(Clone)", "").Trim();
-            Debug.Log($"[CustomRuntimeMaterials] Attempting to load JSON for '{cleanName}'");
+            Debug.Log($"[CustomClimateMaterials] Attempting to load JSON for '{cleanName}'");
 
             if (ModManager.Instance.TryGetAsset(cleanName + ".json", clone: false, out TextAsset jsonAsset))
             {
                 string json = jsonAsset.text;
-                Debug.Log($"[CustomRuntimeMaterials] JSON loaded successfully, contents: {json.Substring(0, Math.Min(json.Length, 500))}...");
+                Debug.Log($"[CustomClimateMaterials] JSON loaded successfully, contents: {json.Substring(0, Math.Min(json.Length, 500))}...");
 
                 fsResult result = _serializer.TryDeserialize(fsJsonParser.Parse(json), ref climateMaterialSettings);
                 if (!result.Succeeded)
-                    Debug.LogError($"[CustomRuntimeMaterials] Deserialization failed: {result.FormattedMessages}");
+                    Debug.LogError($"[CustomClimateMaterials] Deserialization failed: {result.FormattedMessages}");
                 else
-                    Debug.Log("[CustomRuntimeMaterials] Deserialization succeeded");
+                    Debug.Log("[CustomClimateMaterials] Deserialization succeeded");
             }
             else
             {
-                Debug.LogError("[CustomRuntimeMaterials] JSON file for material settings not found");
+                Debug.LogError("[CustomClimateMaterials] JSON file for material settings not found");
                 climateMaterialSettings = new ClimateMaterialSettings(); // Fallback to default
             }
         }
@@ -237,7 +237,7 @@ namespace CustomRuntimeMaterials
             // Ensure definitions is not null or empty before proceeding
             if (definitions == null || definitions.Length == 0)
             {
-                Debug.LogError("[CustomRuntimeMaterials] No definitions found for the current climate and season.");
+                Debug.LogError("[CustomClimateMaterials] No definitions found for the current climate and season.");
                 return;
             }
 
@@ -251,7 +251,7 @@ namespace CustomRuntimeMaterials
             }
             else
             {
-                Debug.LogError("[CustomRuntimeMaterials] No valid materials found for the current climate and season.");
+                Debug.LogError("[CustomClimateMaterials] No valid materials found for the current climate and season.");
             }
         }
 
