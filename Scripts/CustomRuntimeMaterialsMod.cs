@@ -154,46 +154,93 @@ namespace CustomRuntimeMaterials
             return materials.ToArray();
         }
 
-        private ClimateMaterials GetMaterialsForClimate(MapsFile.Climates climate)
+        private ClimateMaterials GetMaterialsForClimate(MapsFile.Climates climate, bool isWinter)
         {
+            // Function to select materials based on climate and whether it's winter
+            Func<ClimateMaterials, MaterialDefinition[]> selectMaterials = (materials) =>
+                isWinter ? materials.winterMaterials : materials.defaultMaterials;
+
+            // Initial selection based on the current climate
+            ClimateMaterials selectedMaterials = climateMaterialSettings.woodlands; // Default fallback
+
+            // Define the primary materials based on the current climate
             switch (climate)
             {
                 case MapsFile.Climates.Ocean:
-                case MapsFile.Climates.Mountain:
-                case MapsFile.Climates.HauntedWoodlands:
-                    return climateMaterialSettings.ocean.defaultMaterials.Length > 0 ? climateMaterialSettings.ocean : climateMaterialSettings.woodlands;
-
+                    selectedMaterials = climateMaterialSettings.ocean;
+                    break;
                 case MapsFile.Climates.Desert:
-                    return climateMaterialSettings.desert.defaultMaterials.Length > 0 ? climateMaterialSettings.desert : climateMaterialSettings.woodlands;
-
+                    selectedMaterials = climateMaterialSettings.desert;
+                    break;
                 case MapsFile.Climates.Desert2:
-                    return climateMaterialSettings.desert2.defaultMaterials.Length > 0 ? climateMaterialSettings.desert2 : climateMaterialSettings.desert;
-
+                    selectedMaterials = climateMaterialSettings.desert2;
+                    break;
+                case MapsFile.Climates.Mountain:
+                    selectedMaterials = climateMaterialSettings.mountain;
+                    break;
                 case MapsFile.Climates.Rainforest:
-                    return climateMaterialSettings.rainforest.defaultMaterials.Length > 0 ? climateMaterialSettings.rainforest : climateMaterialSettings.woodlands;
-
+                    selectedMaterials = climateMaterialSettings.rainforest;
+                    break;
                 case MapsFile.Climates.Swamp:
-                    return climateMaterialSettings.swamp.defaultMaterials.Length > 0 ? climateMaterialSettings.swamp : climateMaterialSettings.rainforest;
-
+                    selectedMaterials = climateMaterialSettings.swamp;
+                    break;
                 case MapsFile.Climates.Subtropical:
-                    return climateMaterialSettings.subtropical.defaultMaterials.Length > 0 ? climateMaterialSettings.subtropical : climateMaterialSettings.desert;
-
+                    selectedMaterials = climateMaterialSettings.subtropical;
+                    break;
                 case MapsFile.Climates.MountainWoods:
-                    return climateMaterialSettings.mountainWoods.defaultMaterials.Length > 0 ? climateMaterialSettings.mountainWoods : climateMaterialSettings.woodlands;
-
-                default:
-                    return climateMaterialSettings.woodlands; // Default fallback, also serves as its own fallback
+                    selectedMaterials = climateMaterialSettings.mountainWoods;
+                    break;
+                case MapsFile.Climates.HauntedWoodlands:
+                    selectedMaterials = climateMaterialSettings.hauntedWoodlands;
+                    break;
             }
+
+            // Check if the selected materials are available; if not, use the fallback
+            if (selectMaterials(selectedMaterials) == null || selectMaterials(selectedMaterials).Length == 0)
+            {
+                // Fallback logic
+                switch (climate)
+                {
+                    case MapsFile.Climates.Ocean:
+                    case MapsFile.Climates.Desert:
+                    case MapsFile.Climates.Mountain:
+                    case MapsFile.Climates.Rainforest:
+                    case MapsFile.Climates.MountainWoods:
+                    case MapsFile.Climates.HauntedWoodlands:
+                        selectedMaterials = climateMaterialSettings.woodlands; // Fallback to Woodlands
+                        break;
+                    case MapsFile.Climates.Desert2:
+                        selectedMaterials = climateMaterialSettings.desert; // Fallback to Desert
+                        break;
+                    case MapsFile.Climates.Swamp:
+                        selectedMaterials = climateMaterialSettings.rainforest; // Fallback to Rainforest
+                        break;
+                    case MapsFile.Climates.Subtropical:
+                        selectedMaterials = climateMaterialSettings.desert; // Fallback to Desert
+                        break;
+                }
+            }
+
+            return selectedMaterials;
         }
 
         private void UpdateMaterialBasedOnClimateAndSeason()
         {
             MapsFile.Climates currentClimate = GetCurrentClimate();
-            ClimateMaterials materialsForClimate = GetMaterialsForClimate(currentClimate);
-            bool isWinter = IsWinter();
+            bool isWinter = IsWinter(); // Determine if it's winter
+
+            // Pass 'isWinter' to 'GetMaterialsForClimate'
+            ClimateMaterials materialsForClimate = GetMaterialsForClimate(currentClimate, isWinter);
 
             // Determine which set of MaterialDefinition to use based on season
             MaterialDefinition[] definitions = isWinter ? materialsForClimate.winterMaterials : materialsForClimate.defaultMaterials;
+
+            // Ensure definitions is not null or empty before proceeding
+            if (definitions == null || definitions.Length == 0)
+            {
+                Debug.LogError("[CustomRuntimeMaterials] No definitions found for the current climate and season.");
+                return;
+            }
 
             // Load materials from the definitions
             Material[] selectedMaterials = LoadMaterialsFromDefinitions(definitions);
@@ -201,13 +248,7 @@ namespace CustomRuntimeMaterials
             // Apply the loaded materials to the meshRenderer
             if (selectedMaterials != null && selectedMaterials.Length > 0 && meshRenderer != null)
             {
-                // Ensure the meshRenderer can hold all the materials (in case it's less)
-                Material[] materialsToApply = new Material[selectedMaterials.Length];
-                for (int i = 0; i < selectedMaterials.Length; i++)
-                {
-                    materialsToApply[i] = selectedMaterials[i]; // Apply each loaded material
-                }
-                meshRenderer.materials = materialsToApply;
+                meshRenderer.materials = selectedMaterials;
             }
             else
             {
