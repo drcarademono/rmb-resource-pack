@@ -1,5 +1,19 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!64 &3603353624062921663
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2903696369087755643}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 88027782403118743, guid: 30d1e59ee34176ef39fbcd47c186e587, type: 3}
 --- !u!114 &5102258526889927114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18,21 +32,11 @@ MonoBehaviour:
     Archive: 302
     Record: 3
     ApplyClimate: 1
+  - Index: 1
+    Archive: 302
+    Record: 3
+    ApplyClimate: 1
   UseDungeonTextureTable: 0
---- !u!64 &6915614474472045854
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2903696369087755643}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -2694179165370066680, guid: 30d1e59ee34176ef39fbcd47c186e587, type: 3}
 --- !u!1001 &2633877524993280042
 PrefabInstance:
   m_ObjectHideFlags: 0
