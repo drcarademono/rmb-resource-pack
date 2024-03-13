@@ -14,7 +14,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7052019272501027943, guid: c95bb2db8229bf4c7a1ca8e1cbbd5da6, type: 3}
---- !u!114 &-7934867676825346014
+--- !u!114 &3672156290769510237
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -23,16 +23,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 7102579694480785397}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a6e6870983c00144809e2c44cdd0bc6, type: 3}
+  m_Script: {fileID: 11500000, guid: 6937163845a08f867ba2f68fae5cb7ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasAppliedMaterials: 0
-  Materials:
-  - Index: 0
-    Archive: 302
-    Record: 2
-    ApplyClimate: 1
-  UseDungeonTextureTable: 0
 --- !u!1001 &7948861349107384996
 PrefabInstance:
   m_ObjectHideFlags: 0

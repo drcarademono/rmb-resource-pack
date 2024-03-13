@@ -1,0 +1,148 @@
+{
+  "ocean": {},
+  "desert": {
+    "defaultMaterials": [
+      {
+        "archive": 2,
+        "record": 3,
+        "frame": 0
+      }
+    ],
+    "winterMaterials": [
+      {
+        "archive": 2,
+        "record": 3,
+        "frame": 0
+      }
+    ]
+  },
+  "desert2": {
+    "defaultMaterials": [
+      {
+        "archive": 3,
+        "record": 3,
+        "frame": 0
+      }
+    ],
+    "winterMaterials": [
+      {
+        "archive": 3,
+        "record": 3,
+        "frame": 0
+      }
+    ]
+  },
+  "mountain": {
+    "defaultMaterials": [
+      {
+        "archive": 102,
+        "record": 3,
+        "frame": 0
+      }
+    ],
+    "winterMaterials": [
+      {
+        "archive": 103,
+        "record": 3,
+        "frame": 0
+      }
+    ]
+  },
+  "mountainHammerfell": {
+    "defaultMaterials": [
+      {
+        "archive": 104,
+        "record": 3,
+        "frame": 0
+      }
+    ],
+    "winterMaterials": [
+      {
+        "archive": 103,
+        "record": 3,
+        "frame": 0
+      }
+    ]
+  },
+  "rainforest": {
+    "defaultMaterials": [
+      {
+        "archive": 402,
+        "record": 3,
+        "frame": 0
+      }
+    ],
+    "winterMaterials": [
+      {
+        "archive": 402,
+        "record": 3,
+        "frame": 0
+      }
+    ]
+  },
+  "swamp": {
+    "defaultMaterials": [
+      {
+        "archive": 402,
+        "record": 3,
+        "frame": 0
+      }
+    ],
+    "winterMaterials": [
+      {
+        "archive": 403,
+        "record": 3,
+        "frame": 0
+      }
+    ]
+  },
+  "subtropical": {
+    "defaultMaterials": [
+      {
+        "archive": 4,
+        "record": 3,
+        "frame": 0
+      }
+    ],
+    "winterMaterials": [
+      {
+        "archive": 4,
+        "record": 3,
+        "frame": 0
+      }
+    ]
+  },
+  "mountainWoods": {},
+  "woodlands": {
+    "defaultMaterials": [
+      {
+        "archive": 302,
+        "record": 3,
+        "frame": 0
+      }
+    ],
+    "winterMaterials": [
+      {
+        "archive": 303,
+        "record": 3,
+        "frame": 0
+      }
+    ]
+  },
+  "hauntedWoodlands": {
+    "defaultMaterials": [
+      {
+        "archive": 304,
+        "record": 3,
+        "frame": 0
+      }
+    ],
+    "winterMaterials": [
+      {
+        "archive": 303,
+        "record": 3,
+        "frame": 0
+      }
+    ]
+  }
+}

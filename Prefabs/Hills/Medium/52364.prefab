@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 5170346089089100424}
   - component: {fileID: 8101722612519101741}
   - component: {fileID: 6308397951515595239}
-  - component: {fileID: -7040447868587903053}
   - component: {fileID: 2839226671004656895}
+  - component: {fileID: 4460530871703164486}
   m_Layer: 0
-  m_Name: 51109
+  m_Name: 52364
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -81,25 +81,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &-7040447868587903053
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5515523004862050354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a6e6870983c00144809e2c44cdd0bc6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hasAppliedMaterials: 0
-  Materials:
-  - Index: 0
-    Archive: 302
-    Record: 1
-    ApplyClimate: 1
-  UseDungeonTextureTable: 0
 --- !u!64 &2839226671004656895
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -114,3 +95,15 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5564884108612940950, guid: eb828228d16aa7d90958346e93dfb7eb, type: 3}
+--- !u!114 &4460530871703164486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5515523004862050354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6937163845a08f867ba2f68fae5cb7ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
