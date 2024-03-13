@@ -30,34 +30,15 @@ namespace CustomClimateMaterials
     [Serializable]
     public class ClimateMaterialSettings
     {
-        [Tooltip("Fallback: Woodlands")]
         public ClimateMaterials ocean = new ClimateMaterials();
-
-        [Tooltip("Fallback: Woodlands")]
         public ClimateMaterials desert = new ClimateMaterials();
-
-        [Tooltip("Falls back to Desert")]
         public ClimateMaterials desert2 = new ClimateMaterials();
-
-        [Tooltip("Fallback: Woodlands")]
         public ClimateMaterials mountain = new ClimateMaterials();
-
-        [Tooltip("Fallback: Woodlands")]
         public ClimateMaterials rainforest = new ClimateMaterials();
-
-        [Tooltip("Fallback: Rainforest")]
         public ClimateMaterials swamp = new ClimateMaterials();
-
-        [Tooltip("Fallback: Desert")]
         public ClimateMaterials subtropical = new ClimateMaterials();
-
-        [Tooltip("Fallback: Woodlands")]
         public ClimateMaterials mountainWoods = new ClimateMaterials();
-
-        [Tooltip("Fallback: Woodlands")]
         public ClimateMaterials woodlands = new ClimateMaterials();
-
-        [Tooltip("Fallback: Woodlands")]
         public ClimateMaterials hauntedWoodlands = new ClimateMaterials();
     }
 
@@ -74,9 +55,7 @@ namespace CustomClimateMaterials
         public static void Init(InitParams initParams)
         {
             Debug.Log("CustomClimateMaterials: Init called.");
-            mod = initParams.Mod;
-            var go = new GameObject(mod.Title);
-            go.AddComponent<CustomClimateMaterials>();        
+ 
         }
 
         private void Awake()

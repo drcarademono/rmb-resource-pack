@@ -47,9 +47,6 @@ namespace CustomRegionMaterials
         public static void Init(InitParams initParams)
         {
             Debug.Log("CustomRegionMaterialsMod: Init called.");
-            mod = initParams.Mod;
-            var go = new GameObject(mod.Title);
-            go.AddComponent<CustomRegionMaterials>();
         }
 
         private void Awake()

@@ -1219,6 +1219,7 @@
         "Assets/Game/Mods/rmb-resource-pack/Scripts/DisableOutsideWinterMod.cs",
         "Assets/Game/Mods/rmb-resource-pack/Scripts/CustomClimateMaterials.cs",
         "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/53171.json",
-        "Assets/Game/Mods/rmb-resource-pack/Scripts/CustomRegionMaterials.cs"
+        "Assets/Game/Mods/rmb-resource-pack/Scripts/CustomRegionMaterials.cs",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Docks/53145.prefab"
     ]
 }

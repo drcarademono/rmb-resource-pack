@@ -1,0 +1,72 @@
+{
+  "regions": [
+    {
+      "regionName": "Satakalaam",
+      "defaultMaterials": [
+        {
+          "archive": 57,
+          "record": 0,
+          "frame": 0
+        }
+      ],
+      "winterMaterials": [
+        {
+          "archive": 57,
+          "record": 1,
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "regionName": "Wrothgarian Mountains",
+      "defaultMaterials": [
+        {
+          "archive": 57,
+          "record": 2,
+          "frame": 0
+        }
+      ],
+      "winterMaterials": [
+        {
+          "archive": 57,
+          "record": 3,
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "regionName": "Glenpoint",
+      "defaultMaterials": [
+        {
+          "archive": 57,
+          "record": 4,
+          "frame": 0
+        }
+      ],
+      "winterMaterials": [
+        {
+          "archive": 57,
+          "record": 5,
+          "frame": 0
+        }
+      ]
+    },
+    {
+      "regionName": "Glenumbra Moors",
+      "defaultMaterials": [
+        {
+          "archive": 45134,
+          "record": 0,
+          "frame": 0
+        }
+      ],
+      "winterMaterials": [
+        {
+          "archive": 45134,
+          "record": 0,
+          "frame": 0
+        }
+      ]
+    }
+  ]
+}
