@@ -1,3 +1,5 @@
+//#define WOD_ROCKS_FULL_LOGS
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -71,34 +73,46 @@ namespace RMBRocksMaterials
         private void Awake()
         {
             meshRenderer = GetComponent<MeshRenderer>();
+#if WOD_ROCKS_FULL_LOGS
             Debug.Log($"[RMBRocksMaterials] Awake called for {gameObject.name}");
+#endif
             LoadClimateMaterialSettings();
         }
 
         private void Start()
         {
+#if WOD_ROCKS_FULL_LOGS
             Debug.Log("[RMBRocksMaterials] Start called");
+#endif
             UpdateMaterialBasedOnClimateAndSeason();
         }
 
         private void LoadClimateMaterialSettings()
         {
             string cleanName = gameObject.name.Replace("(Clone)", "").Replace(".prefab", "").Trim();
+#if WOD_ROCKS_FULL_LOGS
             Debug.Log($"[RMBRocksMaterials] Attempting to load JSON for '{cleanName}'");
+#endif
 
             if (ModManager.Instance.TryGetAsset(cleanName + ".json", clone: false, out TextAsset jsonAsset))
             {
                 string json = jsonAsset.text;
+#if WOD_ROCKS_FULL_LOGS
                 Debug.Log($"[RMBRocksMaterials] JSON loaded successfully, contents: {json.Substring(0, Math.Min(json.Length, 500))}...");
+#endif
 
                 fsResult result = _serializer.TryDeserialize(fsJsonParser.Parse(json), ref climateMaterialSettings);
                 if (!result.Succeeded)
                 {
+#if WOD_ROCKS_FULL_LOGS
                     Debug.LogError($"[RMBRocksMaterials] Deserialization failed: {result.FormattedMessages}");
+#endif
                 }
                 else
                 {
+#if WOD_ROCKS_FULL_LOGS
                     Debug.Log("[RMBRocksMaterials] Deserialization succeeded");
+#endif
                 }
             }
             else
@@ -112,13 +126,17 @@ namespace RMBRocksMaterials
         {
             if (definitions == null || definitions.Length == 0)
             {
+#if WOD_ROCKS_FULL_LOGS
                 Debug.LogWarning("No definitions provided to LoadMaterialsFromDefinitions.");
+#endif
                 return new Material[0]; // Return an empty array.
             }
 
             if (DaggerfallUnity.Instance == null || DaggerfallUnity.Instance.MaterialReader == null)
             {
+#if WOD_ROCKS_FULL_LOGS
                 Debug.LogError("DaggerfallUnity.Instance or MaterialReader is not initialized.");
+#endif
                 return null; // Return null or handle appropriately.
             }
 
