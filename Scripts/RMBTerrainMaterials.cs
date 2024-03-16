@@ -50,12 +50,22 @@ namespace RMBTerrainMaterials
         private static readonly fsSerializer _serializer = new fsSerializer();
 
         static Mod mod;
+        static bool WorldOfDaggerfallBiomesModEnabled = false;
 
         [Invoke(StateManager.StateTypes.Start, 0)]
         public static void Init(InitParams initParams)
         {
             Debug.Log("RMBTerrainMaterials: Init called.");
- 
+            mod = initParams.Mod;
+            GameObject modGameObject = new GameObject(mod.Title);
+            modGameObject.AddComponent<RMBTerrainMaterials>();
+
+            Mod worldOfDaggerfallBiomesMod = ModManager.Instance.GetModFromGUID("3b4319ac-34bb-411d-aa2c-d52b7b9eb69d");
+            if (worldOfDaggerfallBiomesMod != null && worldOfDaggerfallBiomesMod.Enabled)
+            {
+                WorldOfDaggerfallBiomesModEnabled = true;
+                Debug.Log("RMBTerrainMaterials: World of Daggerfall Biomes Mod is active");
+            }
         }
 
         private void Awake()
@@ -71,7 +81,7 @@ namespace RMBTerrainMaterials
             UpdateMaterialBasedOnClimateAndSeason();
         }
 
-       private void LoadClimateMaterialSettings()
+        private void LoadClimateMaterialSettings()
         {
             string cleanName = gameObject.name.Replace("(Clone)", "").Trim();
             Debug.Log($"[RMBTerrainMaterials] Attempting to load JSON for '{cleanName}'");
@@ -83,9 +93,13 @@ namespace RMBTerrainMaterials
 
                 fsResult result = _serializer.TryDeserialize(fsJsonParser.Parse(json), ref climateMaterialSettings);
                 if (!result.Succeeded)
+                {
                     Debug.LogError($"[RMBTerrainMaterials] Deserialization failed: {result.FormattedMessages}");
+                }
                 else
+                {
                     Debug.Log("[RMBTerrainMaterials] Deserialization succeeded");
+                }
             }
             else
             {
@@ -96,24 +110,19 @@ namespace RMBTerrainMaterials
 
         private Material[] LoadMaterialsFromDefinitions(MaterialDefinition[] definitions)
         {
-            if (definitions == null || definitions.Length == 0)
-                return null;
+            if (definitions == null || definitions.Length == 0) return null;
 
             List<Material> materials = new List<Material>();
             foreach (var def in definitions)
             {
                 Material loadedMaterial = null;
-                Rect rectOut; // Required by GetMaterial but not necessarily used afterwards in this context
+                Rect rectOut;
 
-                // Get the MaterialReader instance from DaggerfallUnity
                 MaterialReader materialReader = DaggerfallUnity.Instance.MaterialReader;
-
-                // Attempt to use GetMaterial first
                 loadedMaterial = materialReader.GetMaterial(def.archive, def.record, def.frame, 0, out rectOut, 0, false, false);
 
                 if (loadedMaterial == null)
                 {
-                    // Fallback to TryImportMaterial if GetMaterial fails
                     if (TextureReplacement.TryImportMaterial(def.archive, def.record, def.frame, out loadedMaterial))
                     {
                         materials.Add(loadedMaterial);
@@ -121,12 +130,12 @@ namespace RMBTerrainMaterials
                     else
                     {
                         Debug.LogWarning($"Could not load material for archive: {def.archive}, record: {def.record}, frame: {def.frame}");
-                        materials.Add(null); // Handle missing materials as needed
+                        materials.Add(null);
                     }
                 }
                 else
                 {
-                    materials.Add(loadedMaterial); // Successfully loaded with GetMaterial
+                    materials.Add(loadedMaterial);
                 }
             }
             return materials.ToArray();
@@ -134,96 +143,67 @@ namespace RMBTerrainMaterials
 
         private ClimateMaterials GetMaterialsForClimate(MapsFile.Climates climate, bool isWinter)
         {
-            // Function to select materials based on climate and whether it's winter
-            Func<ClimateMaterials, MaterialDefinition[]> selectMaterials = (materials) =>
-                isWinter ? materials.winterMaterials : materials.defaultMaterials;
+            ClimateMaterials selectedMaterials = null;
 
-            // Initial selection based on the current climate
-            ClimateMaterials selectedMaterials = climateMaterialSettings.woodlands; // Default fallback
-
-            // Define the primary materials based on the current climate
-            switch (climate)
+            if (!WorldOfDaggerfallBiomesModEnabled)
             {
-                case MapsFile.Climates.Ocean:
-                    selectedMaterials = climateMaterialSettings.ocean;
-                    break;
-                case MapsFile.Climates.Desert:
-                    selectedMaterials = climateMaterialSettings.desert;
-                    break;
-                case MapsFile.Climates.Desert2:
-                    selectedMaterials = climateMaterialSettings.desert2;
-                    break;
-                case MapsFile.Climates.Mountain:
-                    selectedMaterials = climateMaterialSettings.mountain;
-                    break;
-                case MapsFile.Climates.Rainforest:
-                    selectedMaterials = climateMaterialSettings.rainforest;
-                    break;
-                case MapsFile.Climates.Swamp:
-                    selectedMaterials = climateMaterialSettings.swamp;
-                    break;
-                case MapsFile.Climates.Subtropical:
-                    selectedMaterials = climateMaterialSettings.subtropical;
-                    break;
-                case MapsFile.Climates.MountainWoods:
-                    selectedMaterials = climateMaterialSettings.mountainWoods;
-                    break;
-                case MapsFile.Climates.HauntedWoodlands:
-                    selectedMaterials = climateMaterialSettings.hauntedWoodlands;
-                    break;
-            }
-
-            // Check if the selected materials are available; if not, use the fallback
-            if (selectMaterials(selectedMaterials) == null || selectMaterials(selectedMaterials).Length == 0)
-            {
-                // Fallback logic
                 switch (climate)
                 {
-                    case MapsFile.Climates.Ocean:
                     case MapsFile.Climates.Desert:
                     case MapsFile.Climates.Mountain:
                     case MapsFile.Climates.Rainforest:
-                    case MapsFile.Climates.MountainWoods:
-                    case MapsFile.Climates.HauntedWoodlands:
-                        selectedMaterials = climateMaterialSettings.woodlands; // Fallback to Woodlands
-                        break;
-                    case MapsFile.Climates.Desert2:
-                        selectedMaterials = climateMaterialSettings.desert; // Fallback to Desert
-                        break;
                     case MapsFile.Climates.Swamp:
-                        selectedMaterials = climateMaterialSettings.rainforest; // Fallback to Rainforest
+                    case MapsFile.Climates.Woodlands:
+                        selectedMaterials = climateMaterialSettings.GetType().GetField(climate.ToString().ToLowerInvariant()).GetValue(climateMaterialSettings) as ClimateMaterials;
                         break;
-                    case MapsFile.Climates.Subtropical:
-                        selectedMaterials = climateMaterialSettings.desert; // Fallback to Desert
+                    default:
+                        selectedMaterials = GetFallbackMaterialsForClimate(climate);
                         break;
                 }
             }
+            else
+            {
+                // Non-modified behavior; you might want to adjust this as needed for your use case.
+                selectedMaterials = climateMaterialSettings.GetType().GetField(climate.ToString().ToLowerInvariant()).GetValue(climateMaterialSettings) as ClimateMaterials;
+            }
 
-            return selectedMaterials;
+            return selectedMaterials ?? climateMaterialSettings.woodlands; // Ensure a valid selection is always returned
+        }
+
+        private ClimateMaterials GetFallbackMaterialsForClimate(MapsFile.Climates climate)
+        {
+            switch (climate)
+            {
+                case MapsFile.Climates.HauntedWoodlands:
+                    return climateMaterialSettings.woodlands;
+                case MapsFile.Climates.Desert2:
+                    return climateMaterialSettings.desert;
+                case MapsFile.Climates.MountainWoods:
+                    return climateMaterialSettings.mountain;
+                case MapsFile.Climates.Ocean:
+                case MapsFile.Climates.Subtropical:
+                    // Assume a generalized fallback for climates not explicitly handled
+                    return climateMaterialSettings.desert;
+                default:
+                    return climateMaterialSettings.woodlands; // Default fallback
+            }
         }
 
         private void UpdateMaterialBasedOnClimateAndSeason()
         {
             MapsFile.Climates currentClimate = GetCurrentClimate();
-            bool isWinter = IsWinter(); // Determine if it's winter
+            bool isWinter = IsWinter();
 
-            // Pass 'isWinter' to 'GetMaterialsForClimate'
             ClimateMaterials materialsForClimate = GetMaterialsForClimate(currentClimate, isWinter);
-
-            // Determine which set of MaterialDefinition to use based on season
             MaterialDefinition[] definitions = isWinter ? materialsForClimate.winterMaterials : materialsForClimate.defaultMaterials;
 
-            // Ensure definitions is not null or empty before proceeding
             if (definitions == null || definitions.Length == 0)
             {
                 Debug.LogError("[RMBTerrainMaterials] No definitions found for the current climate and season.");
                 return;
             }
 
-            // Load materials from the definitions
             Material[] selectedMaterials = LoadMaterialsFromDefinitions(definitions);
-
-            // Apply the loaded materials to the meshRenderer
             if (selectedMaterials != null && selectedMaterials.Length > 0 && meshRenderer != null)
             {
                 meshRenderer.materials = selectedMaterials;
@@ -246,3 +226,4 @@ namespace RMBTerrainMaterials
         }
     }
 }
+
