@@ -26,8 +26,8 @@ namespace RMBRocksMaterials
     [Serializable]
     public class ClimateMaterials
     {
-        public MaterialDefinition[] defaultMaterials;
-        public MaterialDefinition[] winterMaterials;
+        public MaterialDefinition[] defaultMaterials = new MaterialDefinition[0];
+        public MaterialDefinition[] winterMaterials = new MaterialDefinition[0];
     }
 
     [Serializable]
@@ -104,9 +104,7 @@ namespace RMBRocksMaterials
                 fsResult result = _serializer.TryDeserialize(fsJsonParser.Parse(json), ref climateMaterialSettings);
                 if (!result.Succeeded)
                 {
-#if RMB_ROCKS_FULL_LOGS
                     Debug.LogError($"[RMBRocksMaterials] Deserialization failed: {result.FormattedMessages}");
-#endif
                 }
                 else
                 {
@@ -173,32 +171,38 @@ namespace RMBRocksMaterials
 
         private ClimateMaterials GetMaterialsForClimate(MapsFile.Climates climate, bool isWinter)
         {
-            ClimateMaterials selectedMaterials;
-
-            // Restrict material selection when the "World of Daggerfall Biomes" mod is not enabled
-            if (!WorldOfDaggerfallBiomesModEnabled)
+            // Directly match the climate with its corresponding ClimateMaterials
+            switch (climate)
             {
-                switch (climate)
-                {
-                    case MapsFile.Climates.Desert:
-                    case MapsFile.Climates.Mountain:
-                    case MapsFile.Climates.Rainforest:
-                    case MapsFile.Climates.Swamp:
-                    case MapsFile.Climates.Woodlands:
-                        selectedMaterials = climateMaterialSettings.GetType().GetField(climate.ToString().ToLower()).GetValue(climateMaterialSettings) as ClimateMaterials;
-                        break;
-                    default:
-                        selectedMaterials = GetFallbackMaterialsForClimate(climate);
-                        break;
-                }
+                case MapsFile.Climates.Desert:
+                    return climateMaterialSettings.desert;
+                case MapsFile.Climates.Desert2:
+                    // Desert2 falls back to Desert if not explicitly defined
+                    return climateMaterialSettings.desert2.defaultMaterials.Length > 0 ? climateMaterialSettings.desert2 : climateMaterialSettings.desert;
+                case MapsFile.Climates.Mountain:
+                    return climateMaterialSettings.mountain;
+                case MapsFile.Climates.Rainforest:
+                    return climateMaterialSettings.rainforest;
+                case MapsFile.Climates.Swamp:
+                    // Swamp falls back to Rainforest if not explicitly defined
+                    return climateMaterialSettings.swamp.defaultMaterials.Length > 0 ? climateMaterialSettings.swamp : climateMaterialSettings.rainforest;
+                case MapsFile.Climates.Subtropical:
+                    // Subtropical falls back to Desert if not explicitly defined
+                    return climateMaterialSettings.subtropical.defaultMaterials.Length > 0 ? climateMaterialSettings.subtropical : climateMaterialSettings.desert;
+                case MapsFile.Climates.MountainWoods:
+                    // MountainWoods falls back to Mountain if not explicitly defined
+                    return climateMaterialSettings.mountainWoods.defaultMaterials.Length > 0 ? climateMaterialSettings.mountainWoods : climateMaterialSettings.mountain;
+                case MapsFile.Climates.HauntedWoodlands:
+                case MapsFile.Climates.Ocean:
+                    // HauntedWoodlands and Ocean fall back to Woodlands if not explicitly defined
+                    return climateMaterialSettings.hauntedWoodlands.defaultMaterials.Length > 0 ? climateMaterialSettings.hauntedWoodlands : climateMaterialSettings.woodlands;
+                case MapsFile.Climates.Woodlands:
+                    return climateMaterialSettings.woodlands;
+                // Add additional cases as necessary for other climates
+                default:
+                    // Fallback for any undefined or unhandled climates
+                    return climateMaterialSettings.woodlands;
             }
-            else
-            {
-                // If the mod is enabled, use the original climate material selection logic without restrictions
-                selectedMaterials = climateMaterialSettings.GetType().GetField(climate.ToString().ToLower()).GetValue(climateMaterialSettings) as ClimateMaterials;
-            }
-
-            return selectedMaterials ?? climateMaterialSettings.woodlands; // Ensure a valid selection is always returned
         }
 
         private ClimateMaterials GetFallbackMaterialsForClimate(MapsFile.Climates climate)
@@ -260,7 +264,7 @@ namespace RMBRocksMaterials
             }
             else
             {
-                Debug.LogError("[RMBRocksMaterials] No valid materials found for the current climate and season.");
+                Debug.LogError($"[RMBRocksMaterials] No valid materials found for the current climate and season for {gameObject.name}.");
             }
         }
 

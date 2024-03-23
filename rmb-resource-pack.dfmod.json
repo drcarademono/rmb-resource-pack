@@ -1221,7 +1221,6 @@
         "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/53171.json",
         "Assets/Game/Mods/rmb-resource-pack/Scripts/CustomRegionMaterials.cs",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Docks/53145.prefab",
-        "Assets/Game/Mods/rmb-resource-pack/Scripts/RMBTerrainMaterials.cs",
         "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Hills/52301.json",
         "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Hills/52021.json",
         "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Hills/52613.json",
@@ -2114,8 +2113,6 @@
         "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Hills/52329.json",
         "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Hills/52433.json",
         "Assets/Game/Mods/rmb-resource-pack/Scripts/RMBRocksMaterials.cs",
-        "Assets/Game/Mods/rmb-resource-pack/Assets/Materials/2003_4-0.mat",
-        "Assets/Game/Mods/rmb-resource-pack/Assets/Materials/2005_2-0.mat",
         "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Rocks/53073.json",
         "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Rocks/Inverse/53023.json",
         "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Rocks/Inverse/53029.json",
@@ -2229,6 +2226,8 @@
         "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/Rocks/MountainWinter_3-0.png",
         "Assets/Game/Mods/rmb-resource-pack/Assets/Materials/Rocks/2006_1-0.mat",
         "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/Rocks/Woodland_3-0.png",
-        "Assets/Game/Mods/rmb-resource-pack/Assets/Materials/Rocks/2006_4-0.mat"
+        "Assets/Game/Mods/rmb-resource-pack/Assets/Materials/Rocks/2006_4-0.mat",
+        "Assets/Game/Mods/rmb-resource-pack/Assets/Materials/Rocks/2005_2-0.mat",
+        "Assets/Game/Mods/rmb-resource-pack/Assets/Materials/Rocks/2003_4-0.mat"
     ]
 }
