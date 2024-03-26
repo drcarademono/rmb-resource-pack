@@ -72,17 +72,36 @@ namespace RMBRocksMaterials
 
         private void Awake()
         {
+            // Check if the game object's name is "RMB Resource Pack" and skip loading materials if it is.
+            if(gameObject.name == "RMB Resource Pack")
+            {
+        #if RMB_ROCKS_FULL_LOGS
+                Debug.Log("[RMBRocksMaterials] Skipping material loading for 'RMB Resource Pack'.");
+        #endif
+                return; // Skip loading materials for this game object.
+            }
+
             meshRenderer = GetComponent<MeshRenderer>();
-#if RMB_ROCKS_FULL_LOGS
+
+        #if RMB_ROCKS_FULL_LOGS
             Debug.Log($"[RMBRocksMaterials] Awake called for {gameObject.name}");
-#endif
+        #endif
             LoadClimateMaterialSettings();
         }
 
         private void Start()
         {
+            // Check if the game object's name is "RMB Resource Pack" and skip loading materials if it is.
+            if(gameObject.name == "RMB Resource Pack")
+            {
+        #if RMB_ROCKS_FULL_LOGS
+                Debug.Log("[RMBRocksMaterials] Skipping material loading for 'RMB Resource Pack'.");
+        #endif
+                return; // Skip loading materials for this game object.
+            }
+
 #if RMB_ROCKS_FULL_LOGS
-            Debug.Log("[RMBRocksMaterials] Start called");
+            Debug.Log($"[RMBRocksMaterials] Start called for {gameObject.name}.");
 #endif
             UpdateMaterialBasedOnClimateAndSeason();
         }
@@ -104,18 +123,18 @@ namespace RMBRocksMaterials
                 fsResult result = _serializer.TryDeserialize(fsJsonParser.Parse(json), ref climateMaterialSettings);
                 if (!result.Succeeded)
                 {
-                    Debug.LogError($"[RMBRocksMaterials] Deserialization failed: {result.FormattedMessages}");
+                    Debug.LogError($"[RMBRocksMaterials] Deserialization failed for {gameObject.name}: {result.FormattedMessages}");
                 }
                 else
                 {
 #if RMB_ROCKS_FULL_LOGS
-                    Debug.Log("[RMBRocksMaterials] Deserialization succeeded");
+                    Debug.Log($"[RMBRocksMaterials] Deserialization succeeded for {gameObject.name}");
 #endif
                 }
             }
             else
             {
-                Debug.LogError("[RMBRocksMaterials] JSON file for material settings not found");
+                Debug.LogError($"[RMBRocksMaterials] JSON file for material settings not found for {gameObject.name}.");
                 climateMaterialSettings = new ClimateMaterialSettings(); // Fallback to default
             }
         }
@@ -125,7 +144,7 @@ namespace RMBRocksMaterials
             if (definitions == null || definitions.Length == 0)
             {
 #if RMB_ROCKS_FULL_LOGS
-                Debug.LogWarning("No definitions provided to LoadMaterialsFromDefinitions.");
+                Debug.LogWarning($"No definitions provided to LoadMaterialsFromDefinitions for {gameObject.name}.");
 #endif
                 return new Material[0]; // Return an empty array.
             }
@@ -244,13 +263,13 @@ namespace RMBRocksMaterials
                 {
                     materialsForClimate = climateMaterialSettings.mountainBalfiera;
                 }
-                // Apply Hammerfell mountains setting only if the World of Daggerfall - Biomes mod is present
+                // Apply Hammerfell mountains setting only if the RMB Resource Pack - Biomes mod is present
                 else if (WorldOfDaggerfallBiomesModEnabled && hammerfellRegions.Contains(currentRegionName) && climateMaterialSettings.mountainHammerfell != null && (climateMaterialSettings.mountainHammerfell.defaultMaterials?.Length > 0 || climateMaterialSettings.mountainHammerfell.winterMaterials?.Length > 0))
                 {
                     materialsForClimate = climateMaterialSettings.mountainHammerfell;
                 } else if (!WorldOfDaggerfallBiomesModEnabled && hammerfellRegions.Contains(currentRegionName) && climateMaterialSettings.mountainBalfiera != null && (climateMaterialSettings.mountainBalfiera.defaultMaterials?.Length > 0 || climateMaterialSettings.mountainBalfiera.winterMaterials?.Length > 0))
                 {
-                    materialsForClimate = climateMaterialSettings.mountainBalfiera; // Use Balfiera settings for Hammerfell if World of Daggerfall - Biomes mod not present
+                    materialsForClimate = climateMaterialSettings.mountainBalfiera; // Use Balfiera settings for Hammerfell if RMB Resource Pack - Biomes mod not present
                 }
             }
 
