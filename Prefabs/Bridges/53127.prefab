@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -6585392061816683568}
   - component: {fileID: -6082648107331789851}
   m_Layer: 0
-  m_Name: WoodenBridge_Section
+  m_Name: 53127
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42,7 +42,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2522770041123972813}
-  m_Mesh: {fileID: -6549012102126611398, guid: 96a736bcddf1db02d93efde741b13e91, type: 3}
+  m_Mesh: {fileID: -6549012102126611398, guid: 23f25ff1a3acc6a7a8b6027902ddc587, type: 3}
 --- !u!23 &4035877878915565336
 MeshRenderer:
   m_ObjectHideFlags: 0
