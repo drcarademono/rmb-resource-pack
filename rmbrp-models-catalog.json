@@ -7176,6 +7176,48 @@
             "Tags": ""
         },
         {
+            "ID": "53145",
+            "Label": "Wooden Dock - Square",
+            "Category": "Docks",
+            "Subcategory": "Small Docks",
+            "Tags": ""
+        },
+        {
+            "ID": "53146",
+            "Label": "Wooden Dock - Short (no posts)",
+            "Category": "Docks",
+            "Subcategory": "Small Docks",
+            "Tags": ""
+        },
+        {
+            "ID": "53147",
+            "Label": "Wooden Dock - Long (no posts)",
+            "Category": "Docks",
+            "Subcategory": "Small Docks",
+            "Tags": ""
+        },
+        {
+            "ID": "53148",
+            "Label": "Wooden Dock - L-Shaped (no posts)",
+            "Category": "Docks",
+            "Subcategory": "Small Docks",
+            "Tags": ""
+        },
+        {
+            "ID": "53149",
+            "Label": "Wooden Dock - Square (no posts)",
+            "Category": "Docks",
+            "Subcategory": "Small Docks",
+            "Tags": ""
+        },
+        {
+            "ID": "53150",
+            "Label": "Wooden Dock - Post",
+            "Category": "Docks",
+            "Subcategory": "Small Docks",
+            "Tags": ""
+        },
+        {
             "ID": "53160",
             "Label": "Platform - Temple",
             "Category": "Structures",

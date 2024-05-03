@@ -2242,6 +2242,11 @@
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Hills/Grass/52208.prefab",
         "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Hills/52961.json",
         "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/Miscellaneous/1230_1-5.png",
-        "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Hills/52078.json"
+        "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Hills/52078.json",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Docks/53147.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Docks/53146.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Docks/53149.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Docks/53150.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Docks/53148.prefab"
     ]
 }
