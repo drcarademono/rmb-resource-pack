@@ -20,11 +20,15 @@ public class RMBCropBillboard : MonoBehaviour
         mod = initParams.Mod;
         GameObject modGameObject = new GameObject(mod.Title);
         modGameObject.AddComponent<RMBCropBillboard>();
-        Debug.Log("RMBCropBillboard: Init called and component added to game object.");
+        //Debug.Log("RMBCropBillboard: Init called and component added to game object.");
     }
 
-    void Start()
+    void Awake()
     {
+        if(gameObject.name == "RMB Resource Pack")
+            {
+                return; // Skip loading materials for this game object.
+            }
         meshRenderer = GetComponent<MeshRenderer>();
         if (mainCamera == null)
         {
@@ -46,10 +50,10 @@ public class RMBCropBillboard : MonoBehaviour
     private void ApplyMaterialBasedOnName()
     {
         string name = gameObject.name;
-        Debug.Log($"Checking object with name: {name}");
+        //Debug.Log($"Checking object with name: {name}");
         if (name.StartsWith("DaggerfallBillboard"))
         {
-            Debug.Log("Object is a Daggerfall billboard.");
+            //Debug.Log("Object is a Daggerfall billboard.");
             string[] parts = name.Split(new[] { "__" }, System.StringSplitOptions.None);
             if (parts.Length >= 3)
             {
@@ -76,7 +80,7 @@ public class RMBCropBillboard : MonoBehaviour
                     int initialRecord = int.Parse(parts[2].Split('_')[1]);
                     record = AdjustRecordBasedOnClimate(initialRecord);
                 }
-                Debug.Log($"Using archive: {archive}, record: {record} based on season and climate.");
+                //Debug.Log($"Using archive: {archive}, record: {record} based on season and climate.");
 
                 MaterialReader materialReader = DaggerfallUnity.Instance.MaterialReader;
                 MeshReader meshReader = DaggerfallUnity.Instance.MeshReader;
@@ -92,7 +96,7 @@ public class RMBCropBillboard : MonoBehaviour
                     {
                         renderer.material = material;
                         meshFilter.mesh = mesh;
-                        Debug.Log("Material and mesh successfully applied to renderer.");
+                        //Debug.Log("Material and mesh successfully applied to renderer.");
                         
                         // Calculate new height and adjust position to align the base
                         float newHeight = mesh.bounds.size.y;
@@ -126,17 +130,18 @@ public class RMBCropBillboard : MonoBehaviour
         switch (currentClimate)
         {
             case MapsFile.Climates.Mountain:
-                return initialRecord == 0 ? 19 : 21;
+                return initialRecord == 0 ? 0 : 1;
             case MapsFile.Climates.Desert:
-            case MapsFile.Climates.Desert2:
                 return 2;
+            case MapsFile.Climates.Desert2:
+                return 20;
             case MapsFile.Climates.Subtropical:
                 return initialRecord == 0 ? 3 : 4;
             case MapsFile.Climates.Rainforest:
             case MapsFile.Climates.Swamp:
                 return initialRecord == 0 ? 7 : 8;
             default:
-                return initialRecord; // No change for Temperate, MountainWoods, HauntedWoodlands
+                return initialRecord == 0 ? 19 : 21; // No change for Temperate, MountainWoods, HauntedWoodlands
         }
     }
 
@@ -145,23 +150,28 @@ public class RMBCropBillboard : MonoBehaviour
         Vector3 newPosition = transform.position;
         newPosition.y = newYPosition; // Update to align base properly
         transform.position = newPosition;
-        Debug.Log("Billboard aligned to maintain base position.");
+        //Debug.Log("Billboard aligned to maintain base position.");
     }
 
     private MapsFile.Climates GetCurrentClimate()
     {
+    if (GameManager.Instance == null || GameManager.Instance.PlayerGPS == null || GameManager.Instance.PlayerObject == null)
+        {
+            return (MapsFile.Climates)231; // Return default climate as 231
+        }
         return (MapsFile.Climates)GameManager.Instance.PlayerGPS.CurrentClimateIndex;
     }
 
-    /// <summary>
-    /// Checks if current season is winter and player is not in a desert region.
-    /// </summary>
-    /// <returns>True if is winter.</returns>
-    private static bool IsWinter()
+    private bool IsWinter()
     {
-        return GameManager.Instance.PlayerGPS.CurrentClimateIndex != (int)MapsFile.Climates.Desert &&
-        GameManager.Instance.PlayerGPS.CurrentClimateIndex != (int)MapsFile.Climates.Desert2 &&
-        DaggerfallUnity.Instance.WorldTime.Now.SeasonValue == DaggerfallDateTime.Seasons.Winter;
+    if (GameManager.Instance == null || GameManager.Instance.PlayerGPS == null || GameManager.Instance.PlayerObject == null)
+        {
+            return false; // Return default value of false
+        }
+        DaggerfallDateTime now = DaggerfallUnity.Instance.WorldTime.Now;
+        return now.SeasonValue == DaggerfallDateTime.Seasons.Winter && 
+               GameManager.Instance.PlayerGPS.CurrentClimateIndex != (int)MapsFile.Climates.Desert &&
+               GameManager.Instance.PlayerGPS.CurrentClimateIndex != (int)MapsFile.Climates.Desert2;
     }
 }
 

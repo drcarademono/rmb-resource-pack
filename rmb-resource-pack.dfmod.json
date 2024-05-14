@@ -970,7 +970,6 @@
         "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Hills/52514.json",
         "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Hills/52278.json",
         "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Hills/52358.json",
-        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Crops/53211.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Hills/Grass/52135.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Hills/Dirt/52571.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Assets/Materials/1300_0-0.mat",
@@ -1089,7 +1088,6 @@
         "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Hills/52285.json",
         "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Hills/52751.json",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Hills/Dirt/52681.prefab",
-        "Assets/Game/Mods/rmb-resource-pack/Assets/Materials/Crops/301_0-0.mat",
         "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Hills/52927.json",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Buildings/53195.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Hills/Grass/52025.prefab",
@@ -2094,6 +2092,7 @@
         "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Hills/52613.json",
         "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Rocks/53026.json",
         "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Hills/52628.json",
-        "Assets/Game/Mods/rmb-resource-pack/rmb-resource-pack.dfmod.json"
+        "Assets/Game/Mods/rmb-resource-pack/rmb-resource-pack.dfmod.json",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Crops/53211.prefab"
     ]
 }
