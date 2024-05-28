@@ -13,22 +13,23 @@ public class RMBCropBillboard : MonoBehaviour
     static Mod mod;
     public bool FaceY = false; // Set this based on whether you want the object to rotate around Y axis only
     private MeshRenderer meshRenderer;
+    private static GameObject modGameObject;
 
     [Invoke(StateManager.StateTypes.Start, 0)]
     public static void Init(InitParams initParams)
     {
         mod = initParams.Mod;
-        GameObject modGameObject = new GameObject(mod.Title);
+        modGameObject = new GameObject(mod.Title);
         modGameObject.AddComponent<RMBCropBillboard>();
         //Debug.Log("RMBCropBillboard: Init called and component added to game object.");
     }
 
     void Awake()
     {
-        if(gameObject.name == "RMB Resource Pack")
-            {
-                return; // Skip loading materials for this game object.
-            }
+        if (gameObject.name == "RMB Resource Pack")
+        {
+            return; // Skip loading materials for this game object.
+        }
         meshRenderer = GetComponent<MeshRenderer>();
         if (mainCamera == null)
         {
@@ -44,6 +45,16 @@ public class RMBCropBillboard : MonoBehaviour
             float y = FaceY ? mainCamera.transform.forward.y : 0;
             Vector3 viewDirection = -new Vector3(mainCamera.transform.forward.x, y, mainCamera.transform.forward.z);
             transform.LookAt(transform.position + viewDirection);
+        }
+    }
+
+    void OnDestroy()
+    {
+        // Clean up resources when the game object is destroyed
+        if (modGameObject != null)
+        {
+            Destroy(modGameObject);
+            modGameObject = null;
         }
     }
 
@@ -94,10 +105,26 @@ public class RMBCropBillboard : MonoBehaviour
                     Renderer renderer = GetComponent<Renderer>();
                     if (renderer != null)
                     {
+                        // Ensure alpha transparency settings
+                        material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.SrcAlpha);
+                        material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
+                        material.SetInt("_ZWrite", 0);
+                        material.DisableKeyword("_ALPHATEST_ON");
+                        material.EnableKeyword("_ALPHABLEND_ON");
+                        material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
+                        material.renderQueue = (int)UnityEngine.Rendering.RenderQueue.Transparent;
+
+                        // Force the renderer to use the transparent shader
+                        material.shader = Shader.Find("Transparent/Diffuse");
+
                         renderer.material = material;
                         meshFilter.mesh = mesh;
                         //Debug.Log("Material and mesh successfully applied to renderer.");
-                        
+
+                        // Force the renderer to update
+                        renderer.enabled = false;
+                        renderer.enabled = true;
+
                         // Calculate new height and adjust position to align the base
                         float newHeight = mesh.bounds.size.y;
                         float heightDifference = newHeight - originalHeight;
@@ -155,7 +182,7 @@ public class RMBCropBillboard : MonoBehaviour
 
     private MapsFile.Climates GetCurrentClimate()
     {
-    if (GameManager.Instance == null || GameManager.Instance.PlayerGPS == null || GameManager.Instance.PlayerObject == null)
+        if (GameManager.Instance == null || GameManager.Instance.PlayerGPS == null || GameManager.Instance.PlayerObject == null)
         {
             return (MapsFile.Climates)231; // Return default climate as 231
         }
@@ -164,12 +191,12 @@ public class RMBCropBillboard : MonoBehaviour
 
     private bool IsWinter()
     {
-    if (GameManager.Instance == null || GameManager.Instance.PlayerGPS == null || GameManager.Instance.PlayerObject == null)
+        if (GameManager.Instance == null || GameManager.Instance.PlayerGPS == null || GameManager.Instance.PlayerObject == null)
         {
             return false; // Return default value of false
         }
         DaggerfallDateTime now = DaggerfallUnity.Instance.WorldTime.Now;
-        return now.SeasonValue == DaggerfallDateTime.Seasons.Winter && 
+        return now.SeasonValue == DaggerfallDateTime.Seasons.Winter &&
                GameManager.Instance.PlayerGPS.CurrentClimateIndex != (int)MapsFile.Climates.Desert &&
                GameManager.Instance.PlayerGPS.CurrentClimateIndex != (int)MapsFile.Climates.Desert2;
     }
