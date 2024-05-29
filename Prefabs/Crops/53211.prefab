@@ -44,6 +44,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textureArchive: 301
-  textureRecord: 1
-  gridSpacing: 4
-  noiseAmount: 1
+  initialTextureRecord: 0
+  gridSpacing: 3.5
+  noiseAmount: 0.5
+  rangeX: 10
+  rangeY: 10
