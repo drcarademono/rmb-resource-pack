@@ -1847,7 +1847,7 @@
         "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Hills/52607.json",
         "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Hills/52055.json",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Hills/Dirt/52287.prefab",
-        "Assets/Game/Mods/rmb-resource-pack/Scripts/RMBCropBillboard.cs",
+        "Assets/Game/Mods/rmb-resource-pack/Scripts/RMBCropBillboardBatch.cs",
         "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Hills/52497.json",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Hills/Stone/52736.prefab",
         "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Hills/52209.json",
