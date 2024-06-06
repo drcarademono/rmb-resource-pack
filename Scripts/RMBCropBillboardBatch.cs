@@ -18,6 +18,7 @@ public class RMBCropBillboardBatch : MonoBehaviour
     public float noiseAmount = 1.0f; // Amount of random noise to apply to billboard positions
     public int rangeX = 40; // Range for x direction
     public int rangeY = 40; // Range for y direction
+    public float overlapCheckRadius = 1.0f; // Radius for checking overlaps
     private Dictionary<int, Material> billboardMaterials;
     private Dictionary<int, List<GameObject>> billboardBatches;
     private Vector2 billboardSize;
@@ -187,14 +188,30 @@ public class RMBCropBillboardBatch : MonoBehaviour
         foreach (Vector3 position in billboardPositions)
         {
             Vector3 relativePosition = transform.position + position;
-            int randomRecord = GetRandomRecord();
-            GameObject billboard = CreateBillboard(relativePosition, randomRecord);
-            if (billboard != null)
+            if (!IsOverlapping(relativePosition))
             {
-                billboardBatches[randomRecord].Add(billboard);
+                int randomRecord = GetRandomRecord();
+                GameObject billboard = CreateBillboard(relativePosition, randomRecord);
+                if (billboard != null)
+                {
+                    billboardBatches[randomRecord].Add(billboard);
+                }
             }
         }
         //Debug.Log("RMBCropBillboardBatch: Billboards added to batch.");
+    }
+
+    bool IsOverlapping(Vector3 position)
+    {
+        Collider[] colliders = Physics.OverlapSphere(position, overlapCheckRadius);
+        foreach (var collider in colliders)
+        {
+            if (collider.gameObject.GetComponent<Terrain>() == null)
+            {
+                return true;
+            }
+        }
+        return false;
     }
 
     int GetRandomRecord()
