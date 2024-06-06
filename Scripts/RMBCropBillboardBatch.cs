@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using DaggerfallWorkshop;
 using DaggerfallWorkshop.Game.Utility.ModSupport;
+using DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings;
 using DaggerfallWorkshop.Utility;
 using DaggerfallConnect.Arena2;
 using DaggerfallWorkshop.Game;
@@ -14,15 +15,16 @@ public class RMBCropBillboardBatch : MonoBehaviour
     private static GameObject modGameObject;
     public int textureArchive = 504; // The index for the texture archive to load billboard textures from
     public int initialTextureRecord = 0; // The initial index for the texture record to use within the archive
-    public float gridSpacing = 4.0f; // Spacing between billboards in the grid
+    public float gridDensity = 1.0f; // Density factor for the grid
     public float noiseAmount = 1.0f; // Amount of random noise to apply to billboard positions
-    public int rangeX = 40; // Range for x direction
-    public int rangeY = 40; // Range for y direction
+    public int rangeX = 40; // Total width of the grid
+    public int rangeY = 40; // Total height of the grid
     public float overlapCheckRadius = 1.0f; // Radius for checking overlaps
     private Dictionary<int, Material> billboardMaterials;
     private Dictionary<int, List<GameObject>> billboardBatches;
     private Vector2 billboardSize;
     private int currentArchive;
+    private int cropDensity = 10; // Default value for crop density
 
     [Invoke(StateManager.StateTypes.Start, 0)]
     public static void Init(InitParams initParams)
@@ -30,22 +32,26 @@ public class RMBCropBillboardBatch : MonoBehaviour
         mod = initParams.Mod;
         modGameObject = new GameObject(mod.Title);
         modGameObject.AddComponent<RMBCropBillboardBatch>();
-        Debug.Log("RMBCropBillboardBatch: Init called and component added to game object.");
+        //Debug.Log("RMBCropBillboardBatch: Init called and component added to game object.");
     }
 
     void Start()
     {
-        Debug.Log("RMBCropBillboardBatch: Start called.");
+        //Debug.Log("RMBCropBillboardBatch: Start called.");
         if (gameObject.name == "RMB Resource Pack")
         {
             return; // Skip loading materials for this game object.
         }
+
+        ModSettings settings = mod.GetSettings();
+        cropDensity = settings.GetValue<int>("General", "CropDensity");
+
         InitializeBillboardBatch();
     }
 
     void InitializeBillboardBatch()
     {
-        Debug.Log("RMBCropBillboardBatch: Initializing billboard batch...");
+        //Debug.Log("RMBCropBillboardBatch: Initializing billboard batch...");
 
         // Determine the current archive based on the season
         currentArchive = IsWinter() ? 511 : textureArchive;
@@ -71,7 +77,7 @@ public class RMBCropBillboardBatch : MonoBehaviour
         List<Vector3> billboardPositions = GenerateBillboardPositions();
         AddBillboardsToBatch(billboardPositions);
 
-        Debug.Log("RMBCropBillboardBatch: Billboard batch initialization complete.");
+        //Debug.Log("RMBCropBillboardBatch: Billboard batch initialization complete.");
     }
 
     int[] AdjustRecordBasedOnClimate(int initialRecord)
@@ -124,7 +130,7 @@ public class RMBCropBillboardBatch : MonoBehaviour
 
     Material GetBillboardMaterial(int archive, int record)
     {
-        Debug.Log($"RMBCropBillboardBatch: Getting material for archive {archive}, record {record}...");
+        //Debug.Log($"RMBCropBillboardBatch: Getting material for archive {archive}, record {record}...");
         MaterialReader materialReader = DaggerfallUnity.Instance.MaterialReader;
         MeshReader meshReader = DaggerfallUnity.Instance.MeshReader;
         if (materialReader == null || meshReader == null)
@@ -158,7 +164,7 @@ public class RMBCropBillboardBatch : MonoBehaviour
         // Force the renderer to use the transparent shader
         material.shader = Shader.Find("Daggerfall/Billboard");
 
-        Debug.Log("RMBCropBillboardBatch: Material successfully retrieved.");
+        //Debug.Log("RMBCropBillboardBatch: Material successfully retrieved.");
         return material;
     }
 
@@ -167,13 +173,16 @@ public class RMBCropBillboardBatch : MonoBehaviour
         //Debug.Log("RMBCropBillboardBatch: Generating billboard positions...");
         List<Vector3> positions = new List<Vector3>();
 
-        for (int x = -rangeX; x <= rangeX; x++)
+        float xSpacing = rangeX / (rangeX * (gridDensity * (cropDensity * 0.1f)));
+        float ySpacing = rangeY / (rangeY * (gridDensity * (cropDensity * 0.1f)));
+
+        for (float x = -rangeX / 2; x <= rangeX / 2; x += xSpacing)
         {
-            for (int z = -rangeY; z <= rangeY; z++)
+            for (float z = -rangeY / 2; z <= rangeY / 2; z += ySpacing)
             {
                 float offsetX = Random.Range(-noiseAmount, noiseAmount);
                 float offsetZ = Random.Range(-noiseAmount, noiseAmount);
-                Vector3 position = new Vector3(x * gridSpacing + offsetX, 0, z * gridSpacing + offsetZ);
+                Vector3 position = new Vector3(x + offsetX, 0, z + offsetZ);
                 positions.Add(position);
             }
         }

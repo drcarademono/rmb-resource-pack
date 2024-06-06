@@ -1,0 +1,22 @@
+{
+    "Version": "null",
+    "Sections": [
+        {
+            "Name": "General",
+            "Description": "General settings for RMBRP resources",
+            "IsAdvanced": false,
+            "Keys": [
+                {
+                    "Min": 1,
+                    "Max": 10,
+                    "Value": 10,
+                    "Name": "CropDensity",
+                    "Description": "Sets the density of crops in cropfields",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+                }
+            ],
+            "$version": "v1"
+        }
+    ]
+}

@@ -45,8 +45,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textureArchive: 301
   initialTextureRecord: 0
-  gridSpacing: 3.5
+  gridDensity: 0.25
   noiseAmount: 0.5
-  rangeX: 12
-  rangeY: 12
+  rangeX: 85
+  rangeY: 85
   overlapCheckRadius: 1
