@@ -9,7 +9,7 @@
         "YRotation": 0,
         "Exterior": {
             "Header": {
-                "Num3dObjectRecords": 1,
+                "Num3dObjectRecords": 4,
                 "NumFlatObjectRecords": 0,
                 "NumSection3Records": 0,
                 "NumPeopleRecords": 0,
@@ -20,9 +20,20 @@
                     "ModelId": "406",
                     "ModelIdNum": 406,
                     "ObjectType": 4,
-                    "XPos": 64,
+                    "XPos": 0,
                     "YPos": 0,
-                    "ZPos": -64,
+                    "ZPos": 0,
+                    "XRotation": 0,
+                    "YRotation": 0,
+                    "ZRotation": 0
+                },
+                {
+                    "ModelId": "52991",
+                    "ModelIdNum": 52991,
+                    "ObjectType": 4,
+                    "XPos": -421,
+                    "YPos": -227,
+                    "ZPos": 418,
                     "XRotation": 0,
                     "YRotation": 0,
                     "ZRotation": 0
@@ -31,23 +42,27 @@
                     "ModelId": "45077",
                     "ModelIdNum": 45077,
                     "ObjectType": 4,
-                    "XPos": -370,
-                    "YPos": -111,
-                    "ZPos": 365,
+                    "XPos": -421,
+                    "YPos": -98,
+                    "ZPos": 418,
                     "XRotation": 0,
-                    "YRotation": -256,
-                    "ZRotation": 0
+                    "YRotation": 0,
+                    "ZRotation": 0,
+                    "XScale": 0.9,
+                    "ZScale": 0.9
                 },
                 {
                     "ModelId": "45076",
                     "ModelIdNum": 45076,
                     "ObjectType": 4,
-                    "XPos": -370,
-                    "YPos": 3,
-                    "ZPos": 365,
+                    "XPos": -421,
+                    "YPos": 16,
+                    "ZPos": 418,
                     "XRotation": 0,
-                    "YRotation": -256,
-                    "ZRotation": 0
+                    "YRotation": 0,
+                    "ZRotation": 0,
+                    "XScale": 0.9,
+                    "ZScale": 0.9
                 }
             ],
             "BlockFlatObjectRecords": [],
@@ -2525,17 +2540,6 @@
                     "ZPos": -260,
                     "XRotation": 0,
                     "YRotation": 0,
-                    "ZRotation": 0
-                },
-                {
-                    "ModelId": "45076",
-                    "ModelIdNum": 45076,
-                    "ObjectType": 0,
-                    "XPos": -432,
-                    "YPos": -37,
-                    "ZPos": 427,
-                    "XRotation": 0,
-                    "YRotation": -256,
                     "ZRotation": 0
                 },
                 {
