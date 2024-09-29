@@ -113,9 +113,9 @@ MonoBehaviour:
   - Index: 0
     Archive: 6
     Record: 2
-    ApplyClimate: 0
+    ApplyClimate: 1
   - Index: 1
     Archive: 38
     Record: 1
-    ApplyClimate: 0
+    ApplyClimate: 1
   UseDungeonTextureTable: 0

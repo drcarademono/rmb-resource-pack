@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 375014183650865506}
   - component: {fileID: -2251058370474091701}
   m_Layer: 0
-  m_Name: 53503
+  m_Name: 53182
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 4759771697675497578}
   m_LocalRotation: {x: 1.7112914e-15, y: 1, z: -0.000000021855694, w: 0.0000000754979}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.046875, y: 0.046875, z: 0.046875}
+  m_LocalScale: {x: 4.6875, y: 4.6875, z: 4.6875}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -114,11 +114,11 @@ MonoBehaviour:
   - Index: 0
     Archive: 6
     Record: 3
-    ApplyClimate: 0
+    ApplyClimate: 1
   - Index: 1
     Archive: 6
     Record: 2
-    ApplyClimate: 0
+    ApplyClimate: 1
   - Index: 2
     Archive: 12
     Record: 1
