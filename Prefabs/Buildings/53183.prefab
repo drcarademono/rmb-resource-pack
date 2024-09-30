@@ -118,4 +118,8 @@ MonoBehaviour:
     Archive: 12
     Record: 1
     ApplyClimate: 1
+  - Index: 1
+    Archive: 12
+    Record: 1
+    ApplyClimate: 1
   UseDungeonTextureTable: 0
