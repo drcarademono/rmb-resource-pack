@@ -7141,6 +7141,34 @@
             "Tags": ""
         },
         {
+            "ID": "53131",
+            "Label": "Stone Bridge - Half Tile, Short",
+            "Category": "Bridges",
+            "Subcategory": "Small Bridges",
+            "Tags": ""
+        },
+        {
+            "ID": "53132",
+            "Label": "Stone Bridge - Full Tile, Short",
+            "Category": "Bridges",
+            "Subcategory": "Small Bridges",
+            "Tags": ""
+        },
+        {
+            "ID": "53133",
+            "Label": "Stone Bridge - Half Tile, Long",
+            "Category": "Bridges",
+            "Subcategory": "Small Bridges",
+            "Tags": ""
+        },
+        {
+            "ID": "53134",
+            "Label": "Stone Bridge - Full Tile, Long",
+            "Category": "Bridges",
+            "Subcategory": "Small Bridges",
+            "Tags": ""
+        },
+        {
             "ID": "53140",
             "Label": "Wooden Dock - Short",
             "Category": "Docks",

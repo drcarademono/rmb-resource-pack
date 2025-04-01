@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8354931036452501930}
   - component: {fileID: 6059130176811552096}
   - component: {fileID: -2215372318299300255}
+  - component: {fileID: 8730612361927166057}
   m_Layer: 0
   m_Name: 53132
   m_TagString: Untagged
@@ -109,3 +110,17 @@ MonoBehaviour:
     Record: 46
     ApplyClimate: 1
   UseDungeonTextureTable: 0
+--- !u!64 &8730612361927166057
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5698925701547977909}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7299563079678617701, guid: 5eb85ad9ed7c631b38a7b5083ae42972, type: 3}

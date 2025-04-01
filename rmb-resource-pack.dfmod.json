@@ -2271,6 +2271,10 @@
         "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/Portraits/TFAC00I0.RCI_1200018-0.png",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Crops/53214.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Crops/53213.prefab",
-        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Crops/53212.prefab"
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Crops/53212.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Bridges/53132.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Bridges/53131.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Bridges/53133.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Bridges/53134.prefab"
     ]
 }
