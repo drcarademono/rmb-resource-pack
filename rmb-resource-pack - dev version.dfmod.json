@@ -1242,7 +1242,6 @@
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Hills - Dev/Grass/52625.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Market/53116.prefab",
         "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Hills/52169.json",
-        "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/53171.json",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Hills - Dev/Dirt/52564.prefab",
         "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Hills/52155.json",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Hills - Dev/Grass/52562.prefab",
@@ -2081,6 +2080,7 @@
         "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Hills/52593.json",
         "Assets/Game/Mods/rmb-resource-pack/Assets/Materials/Dome-Spire.mat",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Structures/53170.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Structures/53171.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Hills - Dev/Grass/52942.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Hills - Dev/Dirt/52844.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Hills - Dev/Dirt/52867.prefab",
@@ -2275,6 +2275,7 @@
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Bridges/53131.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Bridges/53133.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Bridges/53134.prefab",
-        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Bridges/53132.prefab"
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Bridges/53132.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Buildings/53300.prefab"
     ]
 }
