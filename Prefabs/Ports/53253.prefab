@@ -97,11 +97,11 @@ MonoBehaviour:
   hasAppliedMaterials: 0
   Materials:
   - Index: 0
-    Archive: 309
+    Archive: 317
     Record: 2
     ApplyClimate: 1
   - Index: 1
-    Archive: 309
+    Archive: 317
     Record: 2
     ApplyClimate: 1
   UseDungeonTextureTable: 0

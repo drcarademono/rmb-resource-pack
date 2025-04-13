@@ -41,7 +41,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 83161806624119826}
-  m_Mesh: {fileID: 2468476076989878644, guid: 99aeb8e378676e281a9fbfebb7623549, type: 3}
+  m_Mesh: {fileID: -6772831017139003027, guid: 58f82252b77ea97a8a4844435c6843fe, type: 3}
 --- !u!23 &1884632511701220807
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -97,11 +97,11 @@ MonoBehaviour:
   hasAppliedMaterials: 0
   Materials:
   - Index: 0
-    Archive: 309
+    Archive: 317
     Record: 2
     ApplyClimate: 1
   - Index: 1
-    Archive: 309
+    Archive: 317
     Record: 2
     ApplyClimate: 1
   UseDungeonTextureTable: 0
@@ -118,4 +118,4 @@ MeshCollider:
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 2468476076989878644, guid: 99aeb8e378676e281a9fbfebb7623549, type: 3}
+  m_Mesh: {fileID: -6772831017139003027, guid: 58f82252b77ea97a8a4844435c6843fe, type: 3}
