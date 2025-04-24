@@ -1,6 +1,6 @@
 {
     "ModTitle": "RMB Resource Pack - Development Version",
-    "ModVersion": "0.2.1",
+    "ModVersion": "0.2.2",
     "ModAuthor": "Asset creators (maintained by carademono)",
     "ContactInfo": "Lysandus' Tomb Discord server",
     "DFUnity_Version": "1.0.0",
@@ -2277,6 +2277,14 @@
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Bridges/53134.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Bridges/53132.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Buildings/53300.prefab",
-        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Ports/53259.prefab"
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Ports/53259.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Structures/53220.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Structures/53222.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Structures/53221.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Structures/53223.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Structures/53224.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Structures/53225.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Ports/53260.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Ports/53260.json"
     ]
 }

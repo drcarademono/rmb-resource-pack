@@ -2425,6 +2425,25 @@
         "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/NPCs/1200_54-15.png",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Structures/53171.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Buildings/53300.prefab",
-        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Ports/53259.prefab"
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Ports/53259.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Structures/53220.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Structures/53222.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Structures/53221.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Structures/53223.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Structures/53224.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Structures/53225.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/Buildings/1401_2-0.png",
+        "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Ports/53259.json",
+        "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Ports/53250.json",
+        "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Ports/53258.json",
+        "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Ports/53257.json",
+        "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Ports/53252.json",
+        "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Ports/53255.json",
+        "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Ports/53254.json",
+        "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Ports/53256.json",
+        "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Ports/53253.json",
+        "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Ports/53251.json",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Ports/53260.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Ports/53260.json"
     ]
 }

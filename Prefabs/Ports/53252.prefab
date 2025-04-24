@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 751155095726818984}
   - component: {fileID: 4450532803167815949}
   - component: {fileID: 1884632511701220807}
-  - component: {fileID: 4359616410034151480}
   - component: {fileID: -3660022809636659115}
+  - component: {fileID: -4722445178101269548}
   m_Layer: 0
   m_Name: 53252
   m_TagString: Untagged
@@ -60,8 +60,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 710a7c18962d21ad38703367e82aee35, type: 2}
+  - {fileID: 2100000, guid: 710a7c18962d21ad38703367e82aee35, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -82,29 +82,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &4359616410034151480
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 83161806624119826}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a6e6870983c00144809e2c44cdd0bc6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hasAppliedMaterials: 0
-  Materials:
-  - Index: 0
-    Archive: 317
-    Record: 2
-    ApplyClimate: 1
-  - Index: 1
-    Archive: 317
-    Record: 2
-    ApplyClimate: 1
-  UseDungeonTextureTable: 0
 --- !u!64 &-3660022809636659115
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -119,3 +96,15 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7383210558592305417, guid: d58a5044b04b78b9da38b22f977ae0c3, type: 3}
+--- !u!114 &-4722445178101269548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83161806624119826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58db90dd19fab182aa37614a95fff3de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
