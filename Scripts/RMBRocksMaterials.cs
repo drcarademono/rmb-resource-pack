@@ -109,16 +109,24 @@ namespace RMBRocksMaterials
         private void LoadClimateMaterialSettings()
         {
             string cleanName = gameObject.name.Replace("(Clone)", "").Replace(".prefab", "").Trim();
-#if RMB_ROCKS_FULL_LOGS
+
+            // Check if the name contains the pattern and extract the ID
+            var match = System.Text.RegularExpressions.Regex.Match(cleanName, @"DaggerfallMesh \[ID=(\d+)\]");
+            if (match.Success)
+            {
+                cleanName = match.Groups[1].Value; // Extract the ID as the cleanName
+            }
+
+        #if RMB_ROCKS_FULL_LOGS
             Debug.Log($"[RMBRocksMaterials] Attempting to load JSON for '{cleanName}'");
-#endif
+        #endif
 
             if (ModManager.Instance.TryGetAsset(cleanName + ".json", clone: false, out TextAsset jsonAsset))
             {
                 string json = jsonAsset.text;
-#if RMB_ROCKS_FULL_LOGS
+        #if RMB_ROCKS_FULL_LOGS
                 Debug.Log($"[RMBRocksMaterials] JSON loaded successfully, contents: {json.Substring(0, Math.Min(json.Length, 500))}...");
-#endif
+        #endif
 
                 fsResult result = _serializer.TryDeserialize(fsJsonParser.Parse(json), ref climateMaterialSettings);
                 if (!result.Succeeded)
@@ -127,9 +135,9 @@ namespace RMBRocksMaterials
                 }
                 else
                 {
-#if RMB_ROCKS_FULL_LOGS
+        #if RMB_ROCKS_FULL_LOGS
                     Debug.Log($"[RMBRocksMaterials] Deserialization succeeded for {gameObject.name}");
-#endif
+        #endif
                 }
             }
             else

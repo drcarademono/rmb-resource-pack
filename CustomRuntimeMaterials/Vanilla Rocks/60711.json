@@ -1,0 +1,118 @@
+{
+  "ocean": {},
+  "desert": {
+    "defaultMaterials": [
+      {
+        "archive": 2006,
+        "record": 0,
+        "frame": 0
+      }
+    ],
+    "winterMaterials": [
+      {
+        "archive": 2006,
+        "record": 0,
+        "frame": 0
+      }
+    ]
+  },
+  "desert2": {
+    "defaultMaterials": [
+      {
+        "archive": 2006,
+        "record": 1,
+        "frame": 0
+      }
+    ],
+    "winterMaterials": [
+      {
+        "archive": 2006,
+        "record": 1,
+        "frame": 0
+      }
+    ]
+  },
+  "mountain": {
+    "defaultMaterials": [
+      {
+        "archive": 2006,
+        "record": 2,
+        "frame": 0
+      }
+    ],
+    "winterMaterials": [
+      {
+        "archive": 2006,
+        "record": 2,
+        "frame": 0
+      }
+    ]
+  },
+  "mountainHammerfell": {
+    "defaultMaterials": [
+      {
+        "archive": 2006,
+        "record": 4,
+        "frame": 0
+      }
+    ],
+    "winterMaterials": [
+      {
+        "archive": 2006,
+        "record": 4,
+        "frame": 0
+      }
+    ]
+  },
+  "rainforest": {
+    "defaultMaterials": [
+      {
+        "archive": 2006,
+        "record": 4,
+        "frame": 0
+      }
+    ],
+    "winterMaterials": [
+      {
+        "archive": 2006,
+        "record": 4,
+        "frame": 0
+      }
+    ]
+  },
+  "swamp": {},
+  "subtropical": {},
+  "mountainWoods": {},
+  "woodlands": {
+    "defaultMaterials": [
+      {
+        "archive": 2006,
+        "record": 5,
+        "frame": 0
+      }
+    ],
+    "winterMaterials": [
+      {
+        "archive": 2006,
+        "record": 5,
+        "frame": 0
+      }
+    ]
+  },
+  "hauntedWoodlands": {
+    "defaultMaterials": [
+      {
+        "archive": 2006,
+        "record": 7,
+        "frame": 0
+      }
+    ],
+    "winterMaterials": [
+      {
+        "archive": 2006,
+        "record": 7,
+        "frame": 0
+      }
+    ]
+  }
+}
