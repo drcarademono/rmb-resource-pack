@@ -2402,7 +2402,6 @@
         "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/NPCs/1200_54-25.png",
         "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/NPCs/1200_54-12.png",
         "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/NPCs/1200_54-6.png",
-        "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/Models/TargetTex1.png",
         "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/NPCs/1200_51-0.png",
         "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/NPCs/1200_54-3.png",
         "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/NPCs/1200_51-4.png",
@@ -2502,6 +2501,14 @@
         "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Vanilla Rocks/41713.json",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Vanilla/41734.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Vanilla/41606.prefab",
-        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Vanilla/41735.prefab"
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Vanilla/41735.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Vanilla/41607.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Vanilla/41608.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Vanilla/41738.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Vanilla/41737.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Vanilla/41736.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Vanilla/41610.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Vanilla/41609.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Vanilla/74226.prefab"
     ]
 }

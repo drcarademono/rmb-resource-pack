@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3795035633770060054}
   - component: {fileID: 217711377020573363}
   - component: {fileID: 2657546069399806585}
-  - component: {fileID: 6936640781043440502}
+  - component: {fileID: 9001845368009340491}
   m_Layer: 0
   m_Name: 41606
   m_TagString: Untagged
@@ -59,10 +59,10 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8cd08846e70cfd311a47ed0d6090a24b, type: 2}
-  - {fileID: 2100000, guid: 8cd08846e70cfd311a47ed0d6090a24b, type: 2}
-  - {fileID: 7459571168447411406, guid: fb4776ab84ed015028391698b8d9c395, type: 3}
-  - {fileID: 2100000, guid: 8cd08846e70cfd311a47ed0d6090a24b, type: 2}
+  - {fileID: 2100000, guid: 1f8e15e3c72163d679ce37bc193d7176, type: 2}
+  - {fileID: 2100000, guid: 1f8e15e3c72163d679ce37bc193d7176, type: 2}
+  - {fileID: 2100000, guid: 67b771390d70370ea9c168019548524e, type: 2}
+  - {fileID: 2100000, guid: 1f8e15e3c72163d679ce37bc193d7176, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -83,34 +83,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &6936640781043440502
-MonoBehaviour:
+--- !u!64 &9001845368009340491
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4603097053799646124}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a6e6870983c00144809e2c44cdd0bc6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hasAppliedMaterials: 0
-  Materials:
-  - Index: 0
-    Archive: 449
-    Record: 1
-    ApplyClimate: 0
-  - Index: 1
-    Archive: 449
-    Record: 1
-    ApplyClimate: 0
-  - Index: 2
-    Archive: 27
-    Record: 1
-    ApplyClimate: 0
-  - Index: 3
-    Archive: 449
-    Record: 1
-    ApplyClimate: 0
-  UseDungeonTextureTable: 0
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8059895160878423931, guid: fb4776ab84ed015028391698b8d9c395, type: 3}
