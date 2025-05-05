@@ -25,6 +25,8 @@ public class RMBCropBillboardBatch : MonoBehaviour
     private Vector2 billboardSize;
     private int currentArchive;
     private int cropDensity = 10; // Default value for crop density
+    static Mod snowlessMod;
+    static bool snowlessModEnabled;
 
     [Invoke(StateManager.StateTypes.Start, 0)]
     public static void Init(InitParams initParams)
@@ -33,6 +35,9 @@ public class RMBCropBillboardBatch : MonoBehaviour
         modGameObject = new GameObject(mod.Title);
         modGameObject.AddComponent<RMBCropBillboardBatch>();
         //Debug.Log("RMBCropBillboardBatch: Init called and component added to game object.");
+
+        snowlessMod        = ModManager.Instance.GetModFromGUID("4f7f8aa1-7bd8-4f33-bd02-bbb5ac758a5d");
+        snowlessModEnabled = snowlessMod != null && snowlessMod.Enabled;
     }
 
     void Start()
@@ -115,17 +120,19 @@ public class RMBCropBillboardBatch : MonoBehaviour
         return (MapsFile.Climates)GameManager.Instance.PlayerGPS.CurrentClimateIndex;
     }
 
-    bool IsWinter()
+    private bool IsWinter()
     {
-        if (GameManager.Instance == null || GameManager.Instance.PlayerGPS == null || GameManager.Instance.PlayerObject == null)
-        {
-            return false; // Return default value of false
-        }
-        DaggerfallDateTime now = DaggerfallUnity.Instance.WorldTime.Now;
-        return now.SeasonValue == DaggerfallDateTime.Seasons.Winter &&
-               GameManager.Instance.PlayerGPS.CurrentClimateIndex != (int)MapsFile.Climates.Subtropical &&
-               GameManager.Instance.PlayerGPS.CurrentClimateIndex != (int)MapsFile.Climates.Desert &&
-               GameManager.Instance.PlayerGPS.CurrentClimateIndex != (int)MapsFile.Climates.Desert2;
+        if (GameManager.Instance?.PlayerGPS == null) return false;
+        var now = DaggerfallUnity.Instance.WorldTime.Now;
+        int c = GameManager.Instance.PlayerGPS.CurrentClimateIndex;
+
+        return now.SeasonValue == DaggerfallDateTime.Seasons.Winter
+            && c != (int)MapsFile.Climates.Desert
+            && c != (int)MapsFile.Climates.Desert2
+            && c != (int)MapsFile.Climates.Subtropical
+            && (!snowlessModEnabled 
+                || (c != (int)MapsFile.Climates.Rainforest 
+                 && c != (int)MapsFile.Climates.Swamp));
     }
 
     Material GetBillboardMaterial(int archive, int record)

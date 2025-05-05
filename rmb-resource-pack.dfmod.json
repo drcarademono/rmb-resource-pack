@@ -1,6 +1,6 @@
 {
     "ModTitle": "RMB Resource Pack",
-    "ModVersion": "0.2.3",
+    "ModVersion": "0.3.0",
     "ModAuthor": "Asset creators (maintained by carademono)",
     "ContactInfo": "Lysandus' Tomb Discord server",
     "DFUnity_Version": "1.1.1",
@@ -2509,6 +2509,7 @@
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Vanilla/41736.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Vanilla/41610.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Vanilla/41609.prefab",
-        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Vanilla/74226.prefab"
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Vanilla/74226.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Vanilla/41227.prefab"
     ]
 }

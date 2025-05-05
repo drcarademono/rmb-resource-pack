@@ -14,6 +14,8 @@ public class RMBCropBillboard : MonoBehaviour
     public bool FaceY = false; // Set this based on whether you want the object to rotate around Y axis only
     private MeshRenderer meshRenderer;
     private static GameObject modGameObject;
+    static Mod snowlessMod;
+    static bool snowlessModEnabled;
 
     [Invoke(StateManager.StateTypes.Start, 0)]
     public static void Init(InitParams initParams)
@@ -22,6 +24,9 @@ public class RMBCropBillboard : MonoBehaviour
         modGameObject = new GameObject(mod.Title);
         modGameObject.AddComponent<RMBCropBillboard>();
         //Debug.Log("RMBCropBillboard: Init called and component added to game object.");
+
+        snowlessMod        = ModManager.Instance.GetModFromGUID("4f7f8aa1-7bd8-4f33-bd02-bbb5ac758a5d");
+        snowlessModEnabled = snowlessMod != null && snowlessMod.Enabled;
     }
 
     void Awake()
@@ -191,14 +196,17 @@ public class RMBCropBillboard : MonoBehaviour
 
     private bool IsWinter()
     {
-        if (GameManager.Instance == null || GameManager.Instance.PlayerGPS == null || GameManager.Instance.PlayerObject == null)
-        {
-            return false; // Return default value of false
-        }
-        DaggerfallDateTime now = DaggerfallUnity.Instance.WorldTime.Now;
-        return now.SeasonValue == DaggerfallDateTime.Seasons.Winter &&
-               GameManager.Instance.PlayerGPS.CurrentClimateIndex != (int)MapsFile.Climates.Desert &&
-               GameManager.Instance.PlayerGPS.CurrentClimateIndex != (int)MapsFile.Climates.Desert2;
+        if (GameManager.Instance?.PlayerGPS == null) return false;
+        var now = DaggerfallUnity.Instance.WorldTime.Now;
+        int c = GameManager.Instance.PlayerGPS.CurrentClimateIndex;
+
+        return now.SeasonValue == DaggerfallDateTime.Seasons.Winter
+            && c != (int)MapsFile.Climates.Desert
+            && c != (int)MapsFile.Climates.Desert2
+            && c != (int)MapsFile.Climates.Subtropical
+            && (!snowlessModEnabled 
+                || (c != (int)MapsFile.Climates.Rainforest 
+                 && c != (int)MapsFile.Climates.Swamp));
     }
 }
 

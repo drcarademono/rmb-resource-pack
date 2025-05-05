@@ -37,14 +37,14 @@
   },
   "mountain": {
     "defaultMaterials": [
-      {"archive": 1401, "record": 2, "frame": 0},
-      {"archive": 1401, "record": 2, "frame": 0},
-      {"archive": 1401, "record": 2, "frame": 0}
-    ],
-    "winterMaterials": [
       {"archive": 117, "record": 2, "frame": 0},
       {"archive": 117, "record": 2, "frame": 0},
       {"archive": 117, "record": 2, "frame": 0}
+    ],
+    "winterMaterials": [
+      {"archive": 118, "record": 2, "frame": 0},
+      {"archive": 118, "record": 2, "frame": 0},
+      {"archive": 118, "record": 2, "frame": 0}
     ]
   },
   "rainforest": {
@@ -54,9 +54,9 @@
       {"archive": 417, "record": 2, "frame": 0}
     ],
     "winterMaterials": [
-      {"archive": 417, "record": 2, "frame": 0},
-      {"archive": 417, "record": 2, "frame": 0},
-      {"archive": 417, "record": 2, "frame": 0}
+      {"archive": 418, "record": 2, "frame": 0},
+      {"archive": 418, "record": 2, "frame": 0},
+      {"archive": 418, "record": 2, "frame": 0}
     ]
   },
   "swamp": {
@@ -66,9 +66,9 @@
       {"archive": 417, "record": 2, "frame": 0}
     ],
     "winterMaterials": [
-      {"archive": 417, "record": 2, "frame": 0},
-      {"archive": 417, "record": 2, "frame": 0},
-      {"archive": 417, "record": 2, "frame": 0}
+      {"archive": 418, "record": 2, "frame": 0},
+      {"archive": 418, "record": 2, "frame": 0},
+      {"archive": 418, "record": 2, "frame": 0}
     ]
   },
   "subtropical": {
@@ -90,9 +90,9 @@
       {"archive": 1401, "record": 2, "frame": 0}
     ],
     "winterMaterials": [
-      {"archive": 317, "record": 2, "frame": 0},
-      {"archive": 317, "record": 2, "frame": 0},
-      {"archive": 317, "record": 2, "frame": 0}
+      {"archive": 318, "record": 2, "frame": 0},
+      {"archive": 318, "record": 2, "frame": 0},
+      {"archive": 318, "record": 2, "frame": 0}
     ]
   },
   "woodlands": {
@@ -102,9 +102,9 @@
       {"archive": 1401, "record": 2, "frame": 0}
     ],
     "winterMaterials": [
-      {"archive": 317, "record": 2, "frame": 0},
-      {"archive": 317, "record": 2, "frame": 0},
-      {"archive": 317, "record": 2, "frame": 0}
+      {"archive": 318, "record": 2, "frame": 0},
+      {"archive": 318, "record": 2, "frame": 0},
+      {"archive": 318, "record": 2, "frame": 0}
     ]
   },
   "hauntedWoodlands": {
@@ -114,9 +114,9 @@
       {"archive": 1401, "record": 2, "frame": 0}
     ],
     "winterMaterials": [
-      {"archive": 317, "record": 2, "frame": 0},
-      {"archive": 317, "record": 2, "frame": 0},
-      {"archive": 317, "record": 2, "frame": 0}
+      {"archive": 318, "record": 2, "frame": 0},
+      {"archive": 318, "record": 2, "frame": 0},
+      {"archive": 318, "record": 2, "frame": 0}
     ]
   }
 }
