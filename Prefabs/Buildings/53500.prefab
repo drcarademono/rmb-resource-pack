@@ -78,6 +78,8 @@ MeshRenderer:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: -3033667219593020291, guid: 1d571e4ca6ffe10f9b91da4ed4fd218f, type: 3}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -113,48 +115,48 @@ MonoBehaviour:
   hasAppliedMaterials: 0
   Materials:
   - Index: 0
-    Archive: 372
-    Record: 2
+    Archive: 309
+    Record: 1
     ApplyClimate: 1
   - Index: 1
-    Archive: 1
-    Record: 22
+    Archive: 309
+    Record: 1
     ApplyClimate: 1
   - Index: 2
-    Archive: 1
-    Record: 23
+    Archive: 309
+    Record: 1
     ApplyClimate: 1
   - Index: 3
-    Archive: 1
-    Record: 24
+    Archive: 309
+    Record: 1
     ApplyClimate: 1
   - Index: 4
-    Archive: 1
-    Record: 21
+    Archive: 309
+    Record: 1
     ApplyClimate: 1
   - Index: 5
-    Archive: 1
-    Record: 20
+    Archive: 309
+    Record: 1
     ApplyClimate: 1
   - Index: 6
-    Archive: 1
-    Record: 19
+    Archive: 309
+    Record: 1
     ApplyClimate: 1
   - Index: 7
-    Archive: 1
-    Record: 18
+    Archive: 309
+    Record: 1
     ApplyClimate: 1
   - Index: 8
-    Archive: 1
-    Record: 25
+    Archive: 309
+    Record: 1
     ApplyClimate: 1
   - Index: 9
-    Archive: 1
-    Record: 26
+    Archive: 309
+    Record: 1
     ApplyClimate: 1
   - Index: 10
-    Archive: 372
-    Record: 0
+    Archive: 309
+    Record: 2
     ApplyClimate: 1
   - Index: 11
     Archive: 372
@@ -165,20 +167,28 @@ MonoBehaviour:
     Record: 0
     ApplyClimate: 1
   - Index: 13
-    Archive: 372
-    Record: 3
+    Archive: 309
+    Record: 1
     ApplyClimate: 1
   - Index: 14
-    Archive: 341
-    Record: 1
+    Archive: 309
+    Record: 2
     ApplyClimate: 1
   - Index: 15
     Archive: 0
     Record: 80
     ApplyClimate: 1
   - Index: 16
-    Archive: 87
-    Record: 5
+    Archive: 309
+    Record: 3
+    ApplyClimate: 1
+  - Index: 17
+    Archive: 309
+    Record: 1
+    ApplyClimate: 1
+  - Index: 17
+    Archive: 309
+    Record: 4
     ApplyClimate: 1
   - Index: 17
     Archive: 369
