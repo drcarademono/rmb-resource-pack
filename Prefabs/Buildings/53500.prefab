@@ -78,7 +78,8 @@ MeshRenderer:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: -3033667219593020291, guid: 1d571e4ca6ffe10f9b91da4ed4fd218f, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -186,13 +187,17 @@ MonoBehaviour:
     Archive: 309
     Record: 1
     ApplyClimate: 1
-  - Index: 17
+  - Index: 18
     Archive: 309
     Record: 4
     ApplyClimate: 1
-  - Index: 17
+  - Index: 19
     Archive: 369
     Record: 3
+    ApplyClimate: 1
+  - Index: 20
+    Archive: 309
+    Record: 1
     ApplyClimate: 1
   UseDungeonTextureTable: 0
 --- !u!64 &3511548925421363961

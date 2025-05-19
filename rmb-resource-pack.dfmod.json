@@ -2512,6 +2512,16 @@
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Vanilla/74226.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Vanilla/41227.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Structures/53230.prefab",
-        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Vanilla/41228.prefab"
+        "Assets/Game/Mods/rmb-resource-pack/Prefabs/Vanilla/41228.prefab",
+        "Assets/Game/Mods/rmb-resource-pack/Assets/Materials/1401_2-0.mat",
+        "Assets/Game/Mods/rmb-resource-pack/Assets/Materials/1401_0-0.mat",
+        "Assets/Game/Mods/rmb-resource-pack/Assets/Materials/1401_1-0.mat"
+    ],
+    "Dependencies": [
+        {
+            "Name": "climates & calories",
+            "IsOptional": true,
+            "IsPeer": false
+        }
     ]
 }
