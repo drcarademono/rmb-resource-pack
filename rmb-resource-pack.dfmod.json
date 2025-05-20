@@ -2094,10 +2094,10 @@
         "Assets/Game/Mods/rmb-resource-pack/CustomRuntimeMaterials/Hills/52628.json",
         "Assets/Game/Mods/rmb-resource-pack/rmb-resource-pack.dfmod.json",
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Crops/53211.prefab",
-        "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/NPCs/1200_46-0.xml",
-        "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/NPCs/1200_47-0.xml",
-        "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/NPCs/1200_47-0.png",
-        "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/NPCs/1200_46-0.png",
+        "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/NPCs/1200_55-0.xml",
+        "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/NPCs/1200_56-0.xml",
+        "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/NPCs/1200_56-0.png",
+        "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/NPCs/1200_55-0.png",
         "Assets/Game/Mods/rmb-resource-pack/modsettings.json",
         "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/NPCs/1200_17-0.xml",
         "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/NPCs/1200_18-2.png",
@@ -2515,7 +2515,13 @@
         "Assets/Game/Mods/rmb-resource-pack/Prefabs/Vanilla/41228.prefab",
         "Assets/Game/Mods/rmb-resource-pack/Assets/Materials/1401_2-0.mat",
         "Assets/Game/Mods/rmb-resource-pack/Assets/Materials/1401_0-0.mat",
-        "Assets/Game/Mods/rmb-resource-pack/Assets/Materials/1401_1-0.mat"
+        "Assets/Game/Mods/rmb-resource-pack/Assets/Materials/1401_1-0.mat",
+        "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/NPCs/1200_46-0.PNG",
+        "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/NPCs/1200_47-0.xml",
+        "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/NPCs/1200_46-0.xml",
+        "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/NPCs/1200_47-0.PNG",
+        "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/NPCs/1200_49-0.xml",
+        "Assets/Game/Mods/rmb-resource-pack/Assets/Textures/NPCs/1200_48-0.xml"
     ],
     "Dependencies": [
         {

@@ -14,7 +14,6 @@ public class RMBCropBillboard : MonoBehaviour
     public bool FaceY = false; // Set this based on whether you want the object to rotate around Y axis only
     private MeshRenderer meshRenderer;
     private static GameObject modGameObject;
-    static Mod snowlessMod;
     static bool snowlessModEnabled;
 
     [Invoke(StateManager.StateTypes.Start, 0)]
@@ -25,8 +24,10 @@ public class RMBCropBillboard : MonoBehaviour
         modGameObject.AddComponent<RMBCropBillboard>();
         //Debug.Log("RMBCropBillboard: Init called and component added to game object.");
 
-        snowlessMod        = ModManager.Instance.GetModFromGUID("4f7f8aa1-7bd8-4f33-bd02-bbb5ac758a5d");
-        snowlessModEnabled = snowlessMod != null && snowlessMod.Enabled;
+        var snowlessMod1 = ModManager.Instance.GetModFromGUID("4f7f8aa1-7bd8-4f33-bd02-bbb5ac758a5d");
+        var snowlessMod2 = ModManager.Instance.GetModFromGUID("510e24c8-8fc4-44c0-8927-8786b5bd0fe4");
+        snowlessModEnabled = (snowlessMod1 != null && snowlessMod1.Enabled)
+                          || (snowlessMod2 != null && snowlessMod2.Enabled);
     }
 
     void Awake()

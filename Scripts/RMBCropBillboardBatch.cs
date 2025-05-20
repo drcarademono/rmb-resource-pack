@@ -25,7 +25,6 @@ public class RMBCropBillboardBatch : MonoBehaviour
     private Vector2 billboardSize;
     private int currentArchive;
     private int cropDensity = 10; // Default value for crop density
-    static Mod snowlessMod;
     static bool snowlessModEnabled;
 
     [Invoke(StateManager.StateTypes.Start, 0)]
@@ -36,8 +35,10 @@ public class RMBCropBillboardBatch : MonoBehaviour
         modGameObject.AddComponent<RMBCropBillboardBatch>();
         //Debug.Log("RMBCropBillboardBatch: Init called and component added to game object.");
 
-        snowlessMod        = ModManager.Instance.GetModFromGUID("4f7f8aa1-7bd8-4f33-bd02-bbb5ac758a5d");
-        snowlessModEnabled = snowlessMod != null && snowlessMod.Enabled;
+        var snowlessMod1 = ModManager.Instance.GetModFromGUID("4f7f8aa1-7bd8-4f33-bd02-bbb5ac758a5d");
+        var snowlessMod2 = ModManager.Instance.GetModFromGUID("510e24c8-8fc4-44c0-8927-8786b5bd0fe4");
+        snowlessModEnabled = (snowlessMod1 != null && snowlessMod1.Enabled)
+                          || (snowlessMod2 != null && snowlessMod2.Enabled);
     }
 
     void Start()
